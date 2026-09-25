@@ -1,7 +1,7 @@
 // Groundhop web app: works in the stadium without signal. The page itself is fetched fresh when
 // online (so a new version shows up) and falls back to the cached copy offline; the bundle, fonts
-// and data files are cached on first use. 20260925065250 is replaced at build time.
-const CACHE = 'groundhop-20260925065250';
+// and data files are cached on first use. 20260925080429 is replaced at build time.
+const CACHE = 'groundhop-20260925080429';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest'])).then(() => self.skipWaiting()));
