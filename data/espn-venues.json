@@ -2568,6 +2568,282 @@
    "how": "manual",
    "venue": "",
    "ground": "Sporting Clube Olhanense"
+  },
+  "6743": {
+   "groundId": "osm-way-165516651",
+   "how": "manual",
+   "venue": "",
+   "ground": "Ballymena Showgrounds"
+  },
+  "10607": {
+   "groundId": "osm-relation-12154263",
+   "how": "manual",
+   "venue": "",
+   "ground": "ISONEM Park G\u00fcrsel Aksel Stadyumu"
+  },
+  "10679": {
+   "groundId": "osm-way-402361301",
+   "how": "manual",
+   "venue": "",
+   "ground": "Lesser Hampden"
+  },
+  "10870": {
+   "groundId": "osm-way-85258791",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0394\u03b7\u03bc\u03bf\u03c4\u03b9\u03ba\u03cc \u0393\u03c5\u03bc\u03bd\u03b1\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf \u039d\u03af\u03ba\u03b1\u03b9\u03b1\u03c2-\u039a\u03bf\u03c1\u03c5\u03b4\u03b1\u03bb\u03bb\u03bf\u03cd"
+  },
+  "7305": {
+   "groundId": "osm-way-146254489",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05d9\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05e2\u05db\u05d5 \u05d4\u05d7\u05d3\u05e9"
+  },
+  "8732": {
+   "groundId": "osm-way-623589489",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d1\u05e8\u05d0\u05dc"
+  },
+  "6498": {
+   "groundId": "osm-way-1162457988",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05e1\u05de\u05d9 \u05e2\u05d5\u05e4\u05e8"
+  },
+  "1198": {
+   "groundId": "osm-way-1019033128",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d1\u05dc\u05d5\u05de\u05e4\u05d9\u05dc\u05d3"
+  },
+  "1396": {
+   "groundId": "osm-way-1136152281",
+   "how": "manual",
+   "venue": "",
+   "ground": "Portadown Football Club"
+  },
+  "1277": {
+   "groundId": "osm-way-531704460",
+   "how": "manual",
+   "venue": "",
+   "ground": "National Football Stadium"
+  },
+  "8140": {
+   "groundId": "osm-way-637224257",
+   "how": "manual",
+   "venue": "",
+   "ground": "Inver Park Stadium"
+  },
+  "1492": {
+   "groundId": "osm-relation-1626818",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a0\u03b1\u03b3\u03ba\u03c1\u03ae\u03c4\u03b9\u03bf \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf"
+  },
+  "1495": {
+   "groundId": "osm-relation-3287526",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a0\u03b1\u03bd\u03b8\u03b5\u03c3\u03c3\u03b1\u03bb\u03b9\u03ba\u03cc \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf"
+  },
+  "4636": {
+   "groundId": "osm-way-948091319",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0394\u03b7\u03bc\u03bf\u03c4\u03b9\u03ba\u03cc \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \u03a0\u03b5\u03c1\u03b9\u03c3\u03c4\u03b5\u03c1\u03af\u03bf\u03c5"
+  },
+  "10713": {
+   "groundId": "osm-relation-3291489",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \u201c\u0398\u03b5\u03cc\u03b4\u03c9\u03c1\u03bf\u03c2 \u039a\u03bf\u03bb\u03bf\u03ba\u03bf\u03c4\u03c1\u03ce\u03bd\u03b7\u03c2\u201d"
+  },
+  "10711": {
+   "groundId": "osm-relation-2993783",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u039b\u03b5\u03c9\u03c6\u03cc\u03c1\u03bf\u03c5 \u0391\u03bb\u03b5\u03be\u03ac\u03bd\u03b4\u03c1\u03b1\u03c2 \"\u0391\u03c0\u03cc\u03c3\u03c4\u03bf\u03bb\u03bf\u03c2 \u039d\u03b9\u03ba\u03bf\u03bb\u03b1\u0390\u03b4\u03b7\u03c2\""
+  },
+  "2788": {
+   "groundId": "osm-relation-2991844",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u039a\u03b5\u03bd\u03c4\u03c1\u03b9\u03ba\u03cc \u039f\u03bb\u03c5\u03bc\u03c0\u03b9\u03b1\u03ba\u03cc \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf"
+  },
+  "6791": {
+   "groundId": "osm-way-514830180",
+   "how": "manual",
+   "venue": "",
+   "ground": "AEK Arena"
+  },
+  "10667": {
+   "groundId": "osm-way-181088426",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \u03a4\u03ac\u03c3\u03bf\u03c2 \u039c\u03ac\u03c1\u03ba\u03bf\u03c5"
+  },
+  "8512": {
+   "groundId": "osm-way-849731689",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadionul Francisc von Neumann"
+  },
+  "6569": {
+   "groundId": "osm-way-169044366",
+   "how": "manual",
+   "venue": "",
+   "ground": "Cluj Arena"
+  },
+  "6788": {
+   "groundId": "osm-way-215208362",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadionul Or\u0103\u0219enesc (Ovidiu)"
+  },
+  "9326": {
+   "groundId": "osm-way-674429982",
+   "how": "manual",
+   "venue": "",
+   "ground": "Diyarbak\u0131r Stadyumu"
+  },
+  "8452": {
+   "groundId": "osm-way-315614039",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadyum"
+  },
+  "2281": {
+   "groundId": "osm-way-140574813",
+   "how": "manual",
+   "venue": "",
+   "ground": "Tolka Park"
+  },
+  "7123": {
+   "groundId": "osm-way-706776689",
+   "how": "manual",
+   "venue": "",
+   "ground": "Nordm\u00f8re stadion"
+  },
+  "10685": {
+   "groundId": "osm-way-30342416",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadio Druso - Drusus-Stadion"
+  },
+  "5044": {
+   "groundId": "osm-relation-3916231",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05d9\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05e0\u05ea\u05e0\u05d9\u05d4"
+  },
+  "6319": {
+   "groundId": "osm-way-990706290",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d8\u05d3\u05d9"
+  },
+  "6809": {
+   "groundId": "osm-relation-3916329",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d4\u05de\u05d5\u05e9\u05d1\u05d4"
+  },
+  "8501": {
+   "groundId": "osm-way-1238802314",
+   "how": "manual",
+   "venue": "",
+   "ground": "Cae-y-Castell"
+  },
+  "3312": {
+   "groundId": "osm-way-1118978821",
+   "how": "manual",
+   "venue": "",
+   "ground": "Park Hall Stadium"
+  },
+  "8254": {
+   "groundId": "osm-way-1123069978",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadionul Municipal Sibiu"
+  },
+  "1703": {
+   "groundId": "osm-way-370203179",
+   "how": "manual",
+   "venue": "",
+   "ground": "Latham Park"
+  },
+  "8142": {
+   "groundId": "osm-way-1244549267",
+   "how": "manual",
+   "venue": "",
+   "ground": "SDM Glass Stadium"
+  },
+  "1299": {
+   "groundId": "osm-way-929229208",
+   "how": "manual",
+   "venue": "",
+   "ground": "Jenner Park"
+  },
+  "4569": {
+   "groundId": "osm-way-40351151",
+   "how": "manual",
+   "venue": "",
+   "ground": "Belfast Loughshore Hotel Arena"
+  },
+  "5871": {
+   "groundId": "osm-way-114305284",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0394\u03b7\u03bc\u03bf\u03c4\u03b9\u03ba\u03cc \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \u039b\u03b9\u03b2\u03b1\u03b4\u03b5\u03b9\u03ac\u03c2 \"\u039b\u03ac\u03bc\u03c0\u03c1\u03bf\u03c2 \u039a\u03b1\u03c4\u03c3\u03ce\u03bd\u03b7\u03c2\""
+  },
+  "10437": {
+   "groundId": "osm-way-537525043",
+   "how": "manual",
+   "venue": "",
+   "ground": "Antonis Papadopoulos Stadium"
+  },
+  "8853": {
+   "groundId": "osm-way-1374966139",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \"\u0394\u03b1\u03c3\u03ac\u03ba\u03b9\""
+  },
+  "5914": {
+   "groundId": "osm-node-828428686",
+   "how": "manual",
+   "venue": "",
+   "ground": "Ammochostos Epistrofi Stadium"
+  },
+  "8151": {
+   "groundId": "osm-way-23600174",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadionul Clinceni"
+  },
+  "1234": {
+   "groundId": "osm-way-1081934900",
+   "how": "manual",
+   "venue": "",
+   "ground": "Dalymount Park"
+  },
+  "1918": {
+   "groundId": "osm-way-123596437",
+   "how": "manual",
+   "venue": "",
+   "ground": "Park Avenue"
+  },
+  "7851": {
+   "groundId": "osm-way-114140083",
+   "how": "manual",
+   "venue": "",
+   "ground": "Yr Oval"
+  },
+  "6927": {
+   "groundId": "osm-way-26528570",
+   "how": "manual",
+   "venue": "",
+   "ground": "United Park"
   }
  }
 }
