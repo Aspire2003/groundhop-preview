@@ -2190,6 +2190,384 @@
    "how": "manual",
    "venue": "Peninsula Stadium",
    "ground": "Moor Lane"
+  },
+  "148": {
+   "groundId": "osm-way-152050533",
+   "how": "manual",
+   "venue": "",
+   "ground": "Racecourse Ground"
+  },
+  "175": {
+   "groundId": "osm-way-63358762",
+   "how": "manual",
+   "venue": "",
+   "ground": "Glebe Park"
+  },
+  "280": {
+   "groundId": "osm-way-4597739",
+   "how": "manual",
+   "venue": "",
+   "ground": "Ewood Park"
+  },
+  "307": {
+   "groundId": "osm-way-23136743",
+   "how": "manual",
+   "venue": "",
+   "ground": "Villa Park"
+  },
+  "601": {
+   "groundId": "osm-relation-398967",
+   "how": "manual",
+   "venue": "",
+   "ground": "Br\u00f8ndby Stadium"
+  },
+  "1303": {
+   "groundId": "osm-node-13333689399",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u00c5r\u00e5sen Stadion"
+  },
+  "1470": {
+   "groundId": "osm-way-71229178",
+   "how": "manual",
+   "venue": "",
+   "ground": "Est\u00e1dio da Luz"
+  },
+  "1491": {
+   "groundId": "osm-relation-1626833",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u0393\u03b5\u03ce\u03c1\u03b3\u03b9\u03bf\u03c2 \u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7\u03c2"
+  },
+  "1606": {
+   "groundId": "osm-way-201496787",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03c5\u03bc\u03bd\u03b1\u03c3\u03c4\u03b9\u03ba\u03cc\u03c2 \u03a3\u03c5\u03bb\u03bb\u03cc\u03b3\u03bf\u03c2 \u00ab\u03a4\u03b1 \u03a0\u03b1\u03b3\u03ba\u03cd\u03c0\u03c1\u03b9\u03b1\u00bb"
+  },
+  "1680": {
+   "groundId": "osm-way-619257076",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadium Bowl"
+  },
+  "1810": {
+   "groundId": "osm-way-66321024",
+   "how": "manual",
+   "venue": "",
+   "ground": "Chobani Stadyumu"
+  },
+  "2326": {
+   "groundId": "osm-way-30375424",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stade Auguste-Bonal"
+  },
+  "3328": {
+   "groundId": "osm-way-149407785",
+   "how": "manual",
+   "venue": "",
+   "ground": "Sydbank Park"
+  },
+  "3670": {
+   "groundId": "osm-way-219432070",
+   "how": "manual",
+   "venue": "",
+   "ground": "MKM Stadium"
+  },
+  "3697": {
+   "groundId": "osm-way-29987143",
+   "how": "manual",
+   "venue": "",
+   "ground": "SNP Arena"
+  },
+  "3758": {
+   "groundId": "osm-way-101979167",
+   "how": "manual",
+   "venue": "",
+   "ground": "Jotun Arena"
+  },
+  "3760": {
+   "groundId": "osm-relation-2354259",
+   "how": "manual",
+   "venue": "",
+   "ground": "Sparebanken Norge Arena"
+  },
+  "3776": {
+   "groundId": "osm-relation-10235414",
+   "how": "manual",
+   "venue": "",
+   "ground": "Grimsta IP"
+  },
+  "4277": {
+   "groundId": "osm-way-175446799",
+   "how": "manual",
+   "venue": "",
+   "ground": "Eleda Stadion"
+  },
+  "4286": {
+   "groundId": "osm-way-74887533",
+   "how": "manual",
+   "venue": "",
+   "ground": "Aker Stadion"
+  },
+  "4429": {
+   "groundId": "osm-way-122316541",
+   "how": "manual",
+   "venue": "",
+   "ground": "MCH Arena"
+  },
+  "4449": {
+   "groundId": "osm-way-712632609",
+   "how": "manual",
+   "venue": "",
+   "ground": "AFAS Stadion"
+  },
+  "4521": {
+   "groundId": "osm-way-94220992",
+   "how": "manual",
+   "venue": "",
+   "ground": "Sarpsborg stadion"
+  },
+  "4635": {
+   "groundId": "osm-relation-3292282",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u03a0\u03b1\u03bd\u03b1\u03b9\u03c4\u03c9\u03bb\u03b9\u03ba\u03bf\u03cd"
+  },
+  "4987": {
+   "groundId": "osm-way-342828509",
+   "how": "manual",
+   "venue": "",
+   "ground": "RAMS Park"
+  },
+  "5275": {
+   "groundId": "osm-way-67657560",
+   "how": "manual",
+   "venue": "",
+   "ground": "MAPEI STADIUM - Citt\u00e0 del Tricolore"
+  },
+  "5873": {
+   "groundId": "osm-relation-1626845",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u03a3\u03c4\u03ac\u03b4\u03b9\u03bf \u03a0\u0391\u039f\u039a"
+  },
+  "6394": {
+   "groundId": "osm-way-1070637472",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadion Schnabelholz"
+  },
+  "6682": {
+   "groundId": "osm-relation-9233481",
+   "how": "manual",
+   "venue": "",
+   "ground": "Nordic Wellness Arena"
+  },
+  "6714": {
+   "groundId": "osm-way-553089982",
+   "how": "manual",
+   "venue": "",
+   "ground": "Brann Stadion"
+  },
+  "6778": {
+   "groundId": "osm-way-656499948",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d8\u05e8\u05e0\u05e8"
+  },
+  "7308": {
+   "groundId": "osm-way-511921392",
+   "how": "manual",
+   "venue": "",
+   "ground": "JYSK park"
+  },
+  "7362": {
+   "groundId": "osm-way-169980387",
+   "how": "manual",
+   "venue": "",
+   "ground": "Est\u00e1dio da Nora"
+  },
+  "7411": {
+   "groundId": "osm-way-566753907",
+   "how": "manual",
+   "venue": "",
+   "ground": "Bluenergy Stadium"
+  },
+  "7974": {
+   "groundId": "osm-way-170350372",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stade Bauer"
+  },
+  "8265": {
+   "groundId": "osm-way-505855896",
+   "how": "manual",
+   "venue": "",
+   "ground": "Hoofdveld Harkema-Opeinde"
+  },
+  "8701": {
+   "groundId": "osm-way-208235126",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stora Valla"
+  },
+  "9203": {
+   "groundId": "osm-relation-13103279",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u0391\u0395\u039a \u0391\u03b3\u03b9\u03ac \u03a3\u03bf\u03c6\u03b9\u03ac"
+  },
+  "9315": {
+   "groundId": "osm-way-54812625",
+   "how": "manual",
+   "venue": "",
+   "ground": "Est\u00e1dio Associa\u00e7\u00e3o Desportiva Sanjoanense"
+  },
+  "9867": {
+   "groundId": "osm-way-25074936",
+   "how": "manual",
+   "venue": "",
+   "ground": "KFUM Arena"
+  },
+  "10050": {
+   "groundId": "osm-way-54096891",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadion Feijenoord"
+  },
+  "10333": {
+   "groundId": "osm-way-8783648",
+   "how": "manual",
+   "venue": "",
+   "ground": "The Den"
+  },
+  "10334": {
+   "groundId": "osm-way-149497085",
+   "how": "manual",
+   "venue": "",
+   "ground": "Pride Park Stadium"
+  },
+  "10336": {
+   "groundId": "osm-way-1328815936",
+   "how": "manual",
+   "venue": "",
+   "ground": "T\u00fcpra\u015f Stadyumu"
+  },
+  "10339": {
+   "groundId": "osm-relation-1932910",
+   "how": "manual",
+   "venue": "",
+   "ground": "Strawberry Arena"
+  },
+  "10525": {
+   "groundId": "osm-way-90638647",
+   "how": "manual",
+   "venue": "",
+   "ground": "Parque Municipal de Desportos"
+  },
+  "10631": {
+   "groundId": "osm-way-1426500083",
+   "how": "manual",
+   "venue": "",
+   "ground": "Estadio Municipal de Anoeta"
+  },
+  "10654": {
+   "groundId": "osm-way-144382347",
+   "how": "manual",
+   "venue": "",
+   "ground": "Josko-Arena"
+  },
+  "10665": {
+   "groundId": "osm-way-45418312",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stade Paul-Lignon"
+  },
+  "10678": {
+   "groundId": "osm-way-94231402",
+   "how": "manual",
+   "venue": "",
+   "ground": "Viborg Stadion"
+  },
+  "10686": {
+   "groundId": "osm-way-58898977",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stadio Enrico Sannazzari"
+  },
+  "10691": {
+   "groundId": "osm-way-1012804379",
+   "how": "manual",
+   "venue": "",
+   "ground": "Stade de la Lib\u00e9ration"
+  },
+  "10710": {
+   "groundId": "osm-way-14805722",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0393\u03ae\u03c0\u03b5\u03b4\u03bf \u03a7\u03b1\u03c1\u03b9\u03bb\u03ac\u03bf\u03c5 \"\u039a\u03bb\u03b5\u03ac\u03bd\u03b8\u03b7\u03c2 \u0392\u03b9\u03ba\u03b5\u03bb\u03af\u03b4\u03b7\u03c2\""
+  },
+  "10715": {
+   "groundId": "osm-way-23585790",
+   "how": "manual",
+   "venue": "",
+   "ground": "Cetilar\u00ae Arena"
+  },
+  "10728": {
+   "groundId": "osm-relation-6970589",
+   "how": "manual",
+   "venue": "",
+   "ground": "Bah\u00e7e\u015fehir Okullar\u0131 Stadyumu"
+  },
+  "10733": {
+   "groundId": "osm-way-475533317",
+   "how": "manual",
+   "venue": "",
+   "ground": "Kalyon Stadyumu"
+  },
+  "10880": {
+   "groundId": "osm-way-201384256",
+   "how": "manual",
+   "venue": "",
+   "ground": "Lyse Arena"
+  },
+  "10885": {
+   "groundId": "osm-way-193461738",
+   "how": "manual",
+   "venue": "",
+   "ground": "3Arena"
+  },
+  "10946": {
+   "groundId": "osm-way-38051824",
+   "how": "manual",
+   "venue": "",
+   "ground": "Bor\u00e5s Arena"
+  },
+  "11020": {
+   "groundId": "osm-relation-8250697",
+   "how": "manual",
+   "venue": "",
+   "ground": "Hybel Arena"
+  },
+  "11499": {
+   "groundId": "osm-way-29391089",
+   "how": "manual",
+   "venue": "",
+   "ground": "Reichshof Stadion"
+  },
+  "11512": {
+   "groundId": "osm-relation-1626823",
+   "how": "manual",
+   "venue": "",
+   "ground": "\u0395\u03b8\u03bd\u03b9\u03ba\u03cc \u039a\u03b1\u03c5\u03c4\u03b1\u03bd\u03b6\u03cc\u03b3\u03bb\u03b5\u03b9\u03bf \u03a3\u03c4\u03ac\u03b4\u03b9\u03bf"
+  },
+  "11680": {
+   "groundId": "osm-way-145734895",
+   "how": "manual",
+   "venue": "",
+   "ground": "Sporting Clube Olhanense"
   }
  }
 }
