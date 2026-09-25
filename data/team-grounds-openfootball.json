@@ -1,6 +1,6 @@
 {
  "v": 1,
- "generated": "2026-09-24",
+ "generated": "2026-09-25",
  "teams": {
   "nl.1|ADO Den Haag": {
    "name": "ADO Den Haag",
@@ -346,9 +346,9 @@
   },
   "it.1|AS Roma": {
    "name": "AS Roma",
-   "groundId": "osm-way-23951383",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Stadio dei Marmi\") to wikidata venue \"Stadio Olimpico\", 229m"
+   "groundId": "osm-way-220569222",
+   "how": "manual",
+   "note": "Stadio Olimpico, Rome. Auto-link took the nearest named OSM ground, Stadio dei Marmi (229 m away, an athletics ground), because the Olimpico way had no name tag. Source: https://en.wikipedia.org/wiki/Stadio_Olimpico"
   },
   "it.1|Atalanta BC": {
    "name": "Atalanta BC",
@@ -377,7 +377,7 @@
   "it.1|FC Internazionale Milano": {
    "name": "FC Internazionale Milano",
    "groundId": "osm-way-218520505",
-   "how": "override",
+   "how": "manual",
    "note": "Stadio Giuseppe Meazza (San Siro), shared with AC Milan. Wikidata also lists the historic Arena Civica; the build had picked that one. Verified 25 Sep 2026."
   },
   "it.1|Frosinone Calcio": {
@@ -406,9 +406,9 @@
   },
   "it.1|SS Lazio": {
    "name": "SS Lazio",
-   "groundId": "osm-way-23951383",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Stadio dei Marmi\") to wikidata venue \"Stadio Olimpico\", 229m"
+   "groundId": "osm-way-220569222",
+   "how": "manual",
+   "note": "Stadio Olimpico, Rome. Auto-link took the nearest named OSM ground, Stadio dei Marmi (229 m away, an athletics ground), because the Olimpico way had no name tag. Source: https://en.wikipedia.org/wiki/Stadio_Olimpico"
   },
   "it.1|SSC Napoli": {
    "name": "SSC Napoli",
@@ -431,7 +431,7 @@
   "it.1|US Sassuolo Calcio": {
    "name": "US Sassuolo Calcio",
    "groundId": "osm-way-67657560",
-   "how": "override",
+   "how": "manual",
    "note": "Mapei Stadium, Reggio Emilia (the build had matched Stadio Nereo Rocco in Trieste). Verified 25 Sep 2026."
   },
   "it.1|Udinese Calcio": {
