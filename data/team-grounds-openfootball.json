@@ -322,9 +322,9 @@
   },
   "pt.1|Vitória Guimarães": {
    "name": "Vitória Guimarães",
-   "groundId": "osm-way-104443383",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Estádio do Bonfim\") to wikidata venue \"Estádio do Bonfim\", 8m"
+   "groundId": "osm-way-211693383",
+   "how": "override",
+   "note": "Estádio D. Afonso Henriques, Guimarães (the build had matched Estádio do Bonfim in Setúbal). Verified 25 Sep 2026."
   },
   "it.1|AC Milan": {
    "name": "AC Milan",
@@ -376,9 +376,9 @@
   },
   "it.1|FC Internazionale Milano": {
    "name": "FC Internazionale Milano",
-   "groundId": "osm-way-163964336",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Arena Civica Gianni Brera\") to wikidata venue \"Arena Civica\", 64m"
+   "groundId": "osm-way-218520505",
+   "how": "override",
+   "note": "Stadio Giuseppe Meazza (San Siro), shared with AC Milan. Wikidata also lists the historic Arena Civica; the build had picked that one. Verified 25 Sep 2026."
   },
   "it.1|Frosinone Calcio": {
    "name": "Frosinone Calcio",
@@ -430,9 +430,9 @@
   },
   "it.1|US Sassuolo Calcio": {
    "name": "US Sassuolo Calcio",
-   "groundId": "osm-way-936832898",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Stadio Nereo Rocco\") to wikidata venue \"stadio Nereo Rocco\", 27m"
+   "groundId": "osm-way-67657560",
+   "how": "override",
+   "note": "Mapei Stadium, Reggio Emilia (the build had matched Stadio Nereo Rocco in Trieste). Verified 25 Sep 2026."
   },
   "it.1|Udinese Calcio": {
    "name": "Udinese Calcio",
