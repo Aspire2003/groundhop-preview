@@ -461,10 +461,10 @@
    "ground": "Stadion Wankdorf"
   },
   "1935": {
-   "groundId": "osm-relation-1642536",
-   "how": "name-abroad",
+   "groundId": "osm-relation-18413487",
+   "how": "manual",
    "venue": "Allianz Arena",
-   "ground": "Allianz Stadium"
+   "ground": "Allianz Arena"
   },
   "1963": {
    "groundId": "osm-way-39361183",
@@ -491,10 +491,10 @@
    "ground": "Stadio Cornaredo"
   },
   "2260": {
-   "groundId": "osm-way-305273015",
-   "how": "name",
+   "groundId": "osm-way-19839830",
+   "how": "manual",
    "venue": "Stade Robert Bobin",
-   "ground": "Stade Robert Bobin"
+   "ground": "Essonne Stadium"
   },
   "2267": {
    "groundId": "osm-way-25651711",
@@ -916,8 +916,8 @@
    "ground": "Est\u00e1dio Municipal de Aveiro"
   },
   "4237": {
-   "groundId": "osm-relation-2213777",
-   "how": "name-abroad",
+   "groundId": "osm-way-8015060",
+   "how": "manual",
    "venue": "Red Bull Arena",
    "ground": "Red Bull Arena"
   },
@@ -996,12 +996,6 @@
    "how": "fuzzy",
    "venue": "Stade de l'Abb\u00e9-Deschamps",
    "ground": "Stade Abb\u00e9-Deschamps"
-  },
-  "4626": {
-   "groundId": "osm-way-213549782",
-   "how": "name-abroad",
-   "venue": "Fortuna Arena",
-   "ground": "FC Fortuna"
   },
   "4657": {
    "groundId": "osm-way-13450166",
@@ -1085,12 +1079,6 @@
    "venue": "King Power Stadium",
    "ground": "King Power Stadium"
   },
-  "5822": {
-   "groundId": "osm-way-798545336",
-   "how": "name-abroad",
-   "venue": "The Showgrounds",
-   "ground": "The Showgrounds"
-  },
   "5866": {
    "groundId": "osm-way-854932752",
    "how": "name",
@@ -1173,21 +1161,15 @@
    "ground": "JobServe Community Stadium"
   },
   "6300": {
-   "groundId": "osm-way-23381655",
-   "how": "name",
+   "groundId": "osm-way-967684376",
+   "how": "manual",
    "venue": "St James Park",
-   "ground": "St. James' Park"
+   "ground": "St James' Park"
   },
   "6306": {
    "groundId": "osm-way-116475823",
    "how": "manual",
    "venue": "The BBSP Stadium"
-  },
-  "6318": {
-   "groundId": "osm-way-353267337",
-   "how": "name-abroad",
-   "venue": "Groupama Arena",
-   "ground": "Groupama Stadium"
   },
   "6340": {
    "groundId": "osm-way-275461186",
@@ -1200,18 +1182,6 @@
    "how": "name",
    "venue": "Stade Marcel-Verchere",
    "ground": "Stade Marcel Verch\u00e8re"
-  },
-  "6461": {
-   "groundId": "osm-way-26793990",
-   "how": "fuzzy",
-   "venue": "Meadow Park, Castle Douglas",
-   "ground": "New Douglas Park"
-  },
-  "6482": {
-   "groundId": "osm-way-23381655",
-   "how": "name",
-   "venue": "St. James Park",
-   "ground": "St. James' Park"
   },
   "6499": {
    "groundId": "osm-way-353267337",
@@ -1271,18 +1241,6 @@
    "venue": "Allianz Stadion",
    "ground": "Allianz Stadion"
   },
-  "6742": {
-   "groundId": "osm-way-798545336",
-   "how": "fuzzy",
-   "venue": "The Coleraine Showgrounds",
-   "ground": "The Showgrounds"
-  },
-  "6743": {
-   "groundId": "osm-way-798545336",
-   "how": "fuzzy",
-   "venue": "The Ballymena Showgrounds",
-   "ground": "The Showgrounds"
-  },
   "6827": {
    "groundId": "osm-way-521570813",
    "how": "manual",
@@ -1293,12 +1251,6 @@
    "how": "name",
    "venue": "Kybunpark",
    "ground": "kybunpark"
-  },
-  "6901": {
-   "groundId": "osm-way-646417259",
-   "how": "fuzzy",
-   "venue": "Christie Gillies Park",
-   "ground": "Christie Park"
   },
   "6902": {
    "groundId": "osm-way-633980270",
@@ -1418,12 +1370,6 @@
    "how": "name",
    "venue": "Stade de la Tuili\u00e8re",
    "ground": "Stade de la Tuili\u00e8re"
-  },
-  "8602": {
-   "groundId": "osm-way-500737252",
-   "how": "name-abroad",
-   "venue": "Foresters Park",
-   "ground": "De Foresters"
   },
   "8751": {
    "groundId": "osm-way-859341022",
@@ -1704,23 +1650,11 @@
    "venue": "Yanmar Stadion",
    "ground": "Yanmar Hanasaka Stadion"
   },
-  "10508": {
-   "groundId": "osm-way-69902742",
-   "how": "fuzzy",
-   "venue": "Ciudad Deportiva de Maracena",
-   "ground": "ciudad deportiva"
-  },
   "10526": {
    "groundId": "osm-way-1299784987",
    "how": "name",
    "venue": "Campo da Gandarada",
    "ground": "Campo da Gandarada"
-  },
-  "10532": {
-   "groundId": "osm-way-201509344",
-   "how": "fuzzy",
-   "venue": "Campo de Jogos de Rebordelo",
-   "ground": "Campo de Jogos"
   },
   "10537": {
    "groundId": "osm-way-54662917",
@@ -1745,12 +1679,6 @@
    "how": "fuzzy",
    "venue": "Stade de la Beaujoire",
    "ground": "Stade de La Beaujoire - Louis Fonteneau"
-  },
-  "10564": {
-   "groundId": "osm-way-89375573",
-   "how": "fuzzy",
-   "venue": "Sportpark Bentinckspark Veld 7",
-   "ground": "Veld 7"
   },
   "10598": {
    "groundId": "osm-way-111600868",
@@ -1839,10 +1767,10 @@
    "ground": "Stadio Partenio-Adriano Lombardi"
   },
   "10683": {
-   "groundId": "osm-way-23951383",
-   "how": "name",
+   "groundId": "osm-way-27643000",
+   "how": "manual",
    "venue": "Dei Marmi",
-   "ground": "Stadio dei Marmi"
+   "ground": "Stadio Comunale dei Marmi"
   },
   "10684": {
    "groundId": "osm-way-124108183",
@@ -1893,10 +1821,10 @@
    "ground": "Stadio Renato Dall'Ara"
   },
   "10720": {
-   "groundId": "osm-way-28359912",
-   "how": "name",
+   "groundId": "osm-way-28653500",
+   "how": "manual",
    "venue": "Stadio Artemio Franchi",
-   "ground": "Stadio Artemio Franchi"
+   "ground": "Stadio comunale Artemio Franchi"
   },
   "10722": {
    "groundId": "osm-way-613747943",
@@ -2020,23 +1948,11 @@
    "venue": "Lerkendal Stadion",
    "ground": "Lerkendal Stadion"
   },
-  "10882": {
-   "groundId": "osm-way-665716777",
-   "how": "fuzzy",
-   "venue": "Station Park (Nairn)",
-   "ground": "Station Park"
-  },
   "10904": {
    "groundId": "osm-way-95507076",
    "how": "fuzzy",
    "venue": "The Silverlands",
    "ground": "Tarmac Silverlands Stadium"
-  },
-  "10944": {
-   "groundId": "osm-relation-9217779",
-   "how": "name-abroad",
-   "venue": "Generali Arena",
-   "ground": "Generali Arena"
   },
   "10947": {
    "groundId": "osm-relation-1326589",
@@ -2097,12 +2013,6 @@
    "venue": "Est\u00e1dio Ant\u00f3nio Almeida Correia",
    "ground": "Est\u00e1dio Ant\u00f3nio Almeida Correia (Foni)"
   },
-  "11619": {
-   "groundId": "osm-way-195774749",
-   "how": "fuzzy",
-   "venue": "Complexo Desportivo Elias Pereira Campo 1",
-   "ground": "Complexo Desportivo Elias Pereira"
-  },
   "11622": {
    "groundId": "osm-way-1293729691",
    "how": "fuzzy",
@@ -2155,18 +2065,6 @@
    "venue": "Complexo Desportivo de Castro Daire",
    "ground": "Complexo Desportivo Municipal de Castro Daire"
   },
-  "11685": {
-   "groundId": "osm-way-23993253",
-   "how": "fuzzy",
-   "venue": "Sportpark Voordorp Veld 2",
-   "ground": "Veld 2"
-  },
-  "11710": {
-   "groundId": "osm-way-1164712515",
-   "how": "name",
-   "venue": "Est\u00e1dio Municipal do Cruzeiro",
-   "ground": "Est\u00e1dio do Cruzeiro"
-  },
   "11712": {
    "groundId": "osm-way-1002131954",
    "how": "fuzzy",
@@ -2174,8 +2072,8 @@
    "ground": "Est\u00e1dio Municipal Nuno \u00c1lvares Pereira"
   },
   "11715": {
-   "groundId": "osm-node-1016201984",
-   "how": "name-abroad",
+   "groundId": "osm-relation-5892720",
+   "how": "manual",
    "venue": "Olympia",
    "ground": "Olympia"
   },
@@ -2184,18 +2082,6 @@
    "how": "name",
    "venue": "Est\u00e1dio Municipal da Madalena",
    "ground": "Est\u00e1dio Municipal da Madalena"
-  },
-  "11768": {
-   "groundId": "osm-way-23993253",
-   "how": "fuzzy",
-   "venue": "Sportpark Noord Veld 2",
-   "ground": "Veld 2"
-  },
-  "11782": {
-   "groundId": "osm-way-1466184056",
-   "how": "name",
-   "venue": "Jose Antonio Perez Ureba Stadium",
-   "ground": "Estadio Municipal Jos\u00e9 Antonio P\u00e9rez Ureba"
   },
   "10325": {
    "groundId": "osm-relation-3300749",
