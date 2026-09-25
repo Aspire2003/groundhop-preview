@@ -3,15 +3,13 @@
  "venues": {
   "5": {
    "groundId": "osm-way-270383267",
-   "how": "name-abroad",
-   "venue": "Philips Stadion",
-   "ground": "Philips Stadion"
+   "how": "manual",
+   "venue": "Philips Stadion"
   },
   "26": {
    "groundId": "osm-way-1389243680",
-   "how": "fuzzy",
-   "venue": "San Siro",
-   "ground": "Stadio San Siro Milano"
+   "how": "manual",
+   "venue": "San Siro"
   },
   "43": {
    "groundId": "osm-way-279246809",
@@ -27,27 +25,23 @@
   },
   "48": {
    "groundId": "osm-way-663046810",
-   "how": "name-abroad",
-   "venue": "Goffertstadion",
-   "ground": "Goffertstadion"
+   "how": "manual",
+   "venue": "Goffertstadion"
   },
   "55": {
    "groundId": "osm-way-21875758",
-   "how": "name-abroad",
-   "venue": "Estadio de la Cerámica",
-   "ground": "Estadio de la Cerámica"
+   "how": "manual",
+   "venue": "Estadio de la Cerámica"
   },
   "112": {
    "groundId": "osm-relation-5403784",
-   "how": "name-abroad",
-   "venue": "BayArena",
-   "ground": "BayArena"
+   "how": "manual",
+   "venue": "BayArena"
   },
   "128": {
    "groundId": "osm-way-15807803",
-   "how": "fuzzy",
-   "venue": "Priestfield Stadium",
-   "ground": "MEMS Priestfield Stadium"
+   "how": "manual",
+   "venue": "Priestfield Stadium"
   },
   "129": {
    "groundId": "osm-way-217858059",
@@ -132,9 +126,8 @@
   },
   "161": {
    "groundId": "osm-way-1279407593",
-   "how": "name-abroad",
-   "venue": "Celtic Park",
-   "ground": "Celtic Park"
+   "how": "manual",
+   "venue": "Celtic Park"
   },
   "163": {
    "groundId": "osm-way-19754330",
@@ -285,9 +278,8 @@
   },
   "236": {
    "groundId": "osm-way-4223856",
-   "how": "name-abroad",
-   "venue": "Tynecastle Park",
-   "ground": "Tynecastle Park"
+   "how": "manual",
+   "venue": "Tynecastle Park"
   },
   "242": {
    "groundId": "osm-way-613446291",
@@ -360,9 +352,8 @@
   },
   "339": {
    "groundId": "osm-way-49209155",
-   "how": "name-abroad",
-   "venue": "Stade Louis II",
-   "ground": "Stade Louis-II"
+   "how": "manual",
+   "venue": "Stade Louis II"
   },
   "600": {
    "groundId": "osm-way-184958291",
@@ -430,9 +421,8 @@
   },
   "1376": {
    "groundId": "osm-way-4787262",
-   "how": "name-abroad",
-   "venue": "Right to Dream Park",
-   "ground": "Right to Dream Park"
+   "how": "manual",
+   "venue": "Right to Dream Park"
   },
   "1396": {
    "groundId": "osm-way-1136152281",
@@ -452,9 +442,8 @@
   },
   "1467": {
    "groundId": "osm-way-547707192",
-   "how": "name-abroad",
-   "venue": "Estádio do Dragão",
-   "ground": "Estádio do Dragão"
+   "how": "manual",
+   "venue": "Estádio do Dragão"
   },
   "1468": {
    "groundId": "osm-way-38080909",
@@ -496,9 +485,8 @@
   },
   "1510": {
    "groundId": "osm-way-24292284",
-   "how": "name-abroad",
-   "venue": "Aspmyra Stadion",
-   "ground": "Aspmyra stadion"
+   "how": "manual",
+   "venue": "Aspmyra Stadion"
   },
   "1523": {
    "groundId": "osm-way-193873761",
@@ -518,9 +506,8 @@
   },
   "1625": {
    "groundId": "osm-way-34607291",
-   "how": "name-abroad",
-   "venue": "Spotify Camp Nou",
-   "ground": "Spotify Camp Nou"
+   "how": "manual",
+   "venue": "Spotify Camp Nou"
   },
   "1631": {
    "groundId": "osm-way-27263829",
@@ -541,9 +528,8 @@
   },
   "1694": {
    "groundId": "osm-relation-14185140",
-   "how": "name-abroad",
-   "venue": "Tammelan Stadion",
-   "ground": "Tammelan stadion"
+   "how": "manual",
+   "venue": "Tammelan Stadion"
   },
   "1696": {
    "groundId": "osm-way-1006461993",
@@ -586,9 +572,8 @@
   },
   "1873": {
    "groundId": "osm-way-23211181",
-   "how": "name-abroad",
-   "venue": "Swansea.com Stadium",
-   "ground": "Swansea.com Stadium"
+   "how": "manual",
+   "venue": "Swansea.com Stadium"
   },
   "1879": {
    "groundId": "osm-way-32485183",
@@ -683,9 +668,8 @@
   },
   "2352": {
    "groundId": "osm-way-657418772",
-   "how": "name-abroad",
-   "venue": "Estádio José Alvalade",
-   "ground": "Estádio José Alvalade"
+   "how": "manual",
+   "venue": "Estádio José Alvalade"
   },
   "2383": {
    "groundId": "osm-relation-3574462",
@@ -725,9 +709,8 @@
   },
   "2487": {
    "groundId": "osm-way-74795003",
-   "how": "fuzzy",
-   "venue": "Sportpark De Westmaat (IJsselmeervogels)",
-   "ground": "IJsselmeervogels"
+   "how": "manual",
+   "venue": "Sportpark De Westmaat (IJsselmeervogels)"
   },
   "2585": {
    "groundId": "osm-way-39256141",
@@ -765,9 +748,8 @@
   },
   "2804": {
    "groundId": "osm-way-663152204",
-   "how": "name-abroad",
-   "venue": "Daio Wasabi Stayen Stadium",
-   "ground": "Daio Wasabi Stayen Stadium"
+   "how": "manual",
+   "venue": "Daio Wasabi Stayen Stadium"
   },
   "2835": {
    "groundId": "osm-way-762501755",
@@ -818,9 +800,8 @@
   },
   "3113": {
    "groundId": "osm-way-172853962",
-   "how": "fuzzy",
-   "venue": "Stade Vélodrome",
-   "ground": "CEPAC Vélodrome"
+   "how": "manual",
+   "venue": "Stade Vélodrome"
   },
   "3130": {
    "groundId": "osm-way-177555385",
@@ -830,9 +811,8 @@
   },
   "3171": {
    "groundId": "osm-way-585458224",
-   "how": "fuzzy",
-   "venue": "Stade de Balmont",
-   "ground": "Stade de La Duchère-Balmont"
+   "how": "manual",
+   "venue": "Stade de Balmont"
   },
   "3201": {
    "groundId": "osm-way-28681316",
@@ -984,9 +964,8 @@
   },
   "3739": {
    "groundId": "osm-way-428489640",
-   "how": "name-abroad",
-   "venue": "Brandywell Stadium",
-   "ground": "Brandywell Stadium"
+   "how": "manual",
+   "venue": "Brandywell Stadium"
   },
   "3744": {
    "groundId": "osm-way-1230104580",
@@ -1035,9 +1014,8 @@
   },
   "3893": {
    "groundId": "osm-way-68424396",
-   "how": "name-abroad",
-   "venue": "Cardiff City Stadium",
-   "ground": "Cardiff City Stadium"
+   "how": "manual",
+   "venue": "Cardiff City Stadium"
   },
   "3897": {
    "groundId": "osm-way-39501912",
@@ -1150,9 +1128,8 @@
   },
   "4376": {
    "groundId": "osm-way-166822622",
-   "how": "name-abroad",
-   "venue": "De Grolsch Veste",
-   "ground": "De Grolsch Veste"
+   "how": "manual",
+   "venue": "De Grolsch Veste"
   },
   "4429": {
    "groundId": "osm-way-122316541",
@@ -1222,9 +1199,8 @@
   },
   "4617": {
    "groundId": "osm-way-269095205",
-   "how": "fuzzy",
-   "venue": "Stade de l'Abbé-Deschamps",
-   "ground": "Stade Abbé-Deschamps"
+   "how": "manual",
+   "venue": "Stade de l'Abbé-Deschamps"
   },
   "4635": {
    "groundId": "osm-relation-3292282",
@@ -1243,9 +1219,8 @@
   },
   "4704": {
    "groundId": "osm-way-78626091",
-   "how": "name-abroad",
-   "venue": "King Power at Den Dreef Stadion",
-   "ground": "King Power at Den Dreef"
+   "how": "manual",
+   "venue": "King Power at Den Dreef Stadion"
   },
   "4840": {
    "groundId": "osm-relation-443040",
@@ -1255,9 +1230,8 @@
   },
   "4844": {
    "groundId": "osm-way-238067304",
-   "how": "fuzzy",
-   "venue": "Stade Océane",
-   "ground": "Stade CMA CGM Océane"
+   "how": "manual",
+   "venue": "Stade Océane"
   },
   "4895": {
    "groundId": "osm-way-40476328",
@@ -1272,9 +1246,8 @@
   },
   "4933": {
    "groundId": "osm-way-630755699",
-   "how": "name-abroad",
-   "venue": "Cepheus Park Randers",
-   "ground": "Cepheus Park Randers"
+   "how": "manual",
+   "venue": "Cepheus Park Randers"
   },
   "4947": {
    "groundId": "osm-way-151494291",
@@ -1322,9 +1295,8 @@
   },
   "5725": {
    "groundId": "osm-way-27857254",
-   "how": "fuzzy",
-   "venue": "Profertil Arena",
-   "ground": "Profertil Arena Hartberg"
+   "how": "manual",
+   "venue": "Profertil Arena"
   },
   "5764": {
    "groundId": "osm-way-41984192",
@@ -1407,15 +1379,13 @@
   },
   "6259": {
    "groundId": "osm-way-211181859",
-   "how": "name-abroad",
-   "venue": "Stockhorn Arena",
-   "ground": "Stockhorn Arena"
+   "how": "manual",
+   "venue": "Stockhorn Arena"
   },
   "6264": {
    "groundId": "osm-relation-2896823",
-   "how": "name-abroad",
-   "venue": "Merkur Arena",
-   "ground": "Merkur Arena"
+   "how": "manual",
+   "venue": "Merkur Arena"
   },
   "6290": {
    "groundId": "osm-way-188840229",
@@ -1608,21 +1578,18 @@
   },
   "6962": {
    "groundId": "osm-way-25018255",
-   "how": "fuzzy",
-   "venue": "Studenternas IP",
-   "ground": "Studenternas"
+   "how": "manual",
+   "venue": "Studenternas IP"
   },
   "7010": {
    "groundId": "osm-relation-7093416",
-   "how": "name-abroad",
-   "venue": "Papara Park",
-   "ground": "Papara Park"
+   "how": "manual",
+   "venue": "Papara Park"
   },
   "7079": {
    "groundId": "osm-way-817807086",
-   "how": "fuzzy",
-   "venue": "Stade Joseph Marien",
-   "ground": "Stade Joseph Marien - Joseph Marienstadion"
+   "how": "manual",
+   "venue": "Stade Joseph Marien"
   },
   "7123": {
    "groundId": "osm-way-706776689",
@@ -1687,9 +1654,8 @@
   },
   "7677": {
    "groundId": "osm-way-239542656",
-   "how": "name-abroad",
-   "venue": "Stadionul Ion Oblemenco",
-   "ground": "Stadionul Ion Oblemenco"
+   "how": "manual",
+   "venue": "Stadionul Ion Oblemenco"
   },
   "7721": {
    "groundId": "osm-way-180665346",
@@ -1812,15 +1778,13 @@
   },
   "8751": {
    "groundId": "osm-way-859341022",
-   "how": "fuzzy",
-   "venue": "Arena Giulesti",
-   "ground": "Superbet Arena - Giulești"
+   "how": "manual",
+   "venue": "Arena Giulesti"
   },
   "8842": {
    "groundId": "osm-way-908440531",
-   "how": "name-abroad",
-   "venue": "Europa-Park Stadion",
-   "ground": "Europa-Park Stadion"
+   "how": "manual",
+   "venue": "Europa-Park Stadion"
   },
   "8853": {
    "groundId": "osm-way-1374966139",
@@ -1852,9 +1816,8 @@
   },
   "9218": {
    "groundId": "osm-way-296863676",
-   "how": "fuzzy",
-   "venue": "Estádio do Varzim",
-   "ground": "Estádio Municipal da Póvoa de Varzim"
+   "how": "manual",
+   "venue": "Estádio do Varzim"
   },
   "9230": {
    "groundId": "osm-way-142122944",
@@ -1903,9 +1866,8 @@
   },
   "9656": {
    "groundId": "osm-way-3869991",
-   "how": "name-abroad",
-   "venue": "MHPArena",
-   "ground": "MHPArena"
+   "how": "manual",
+   "venue": "MHPArena"
   },
   "9657": {
    "groundId": "osm-way-731980938",
@@ -1927,9 +1889,8 @@
   },
   "9743": {
    "groundId": "osm-way-1348549266",
-   "how": "fuzzy",
-   "venue": "Campo Domingos Carrilho Patalino",
-   "ground": "Estádio Patalino"
+   "how": "manual",
+   "venue": "Campo Domingos Carrilho Patalino"
   },
   "9867": {
    "groundId": "osm-way-25074936",
@@ -1977,9 +1938,8 @@
   },
   "10288": {
    "groundId": "osm-way-808833488",
-   "how": "fuzzy",
-   "venue": "Vejlby Stadion",
-   "ground": "Ceres Park Vejlby"
+   "how": "manual",
+   "venue": "Vejlby Stadion"
   },
   "10318": {
    "groundId": "osm-way-1367633428",
@@ -2058,15 +2018,13 @@
   },
   "10343": {
    "groundId": "osm-way-83716777",
-   "how": "fuzzy",
-   "venue": "Bescot Stadium",
-   "ground": "Pallet-Track Bescot Stadium"
+   "how": "manual",
+   "venue": "Bescot Stadium"
   },
   "10344": {
    "groundId": "osm-way-17235929",
-   "how": "name-abroad",
-   "venue": "Signal Iduna Park",
-   "ground": "SIGNAL IDUNA PARK"
+   "how": "manual",
+   "venue": "Signal Iduna Park"
   },
   "10353": {
    "groundId": "osm-way-256756004",
@@ -2075,15 +2033,13 @@
   },
   "10356": {
    "groundId": "osm-relation-1458682",
-   "how": "name-abroad",
-   "venue": "Johan Cruijff Arena",
-   "ground": "Johan Cruijff ArenA"
+   "how": "manual",
+   "venue": "Johan Cruijff Arena"
   },
   "10366": {
    "groundId": "osm-way-26263036",
-   "how": "name-abroad",
-   "venue": "Parken Stadium",
-   "ground": "Parken"
+   "how": "manual",
+   "venue": "Parken Stadium"
   },
   "10369": {
    "groundId": "osm-way-353225089",
@@ -2093,9 +2049,8 @@
   },
   "10378": {
    "groundId": "osm-way-28537290",
-   "how": "name-abroad",
-   "venue": "American Express Stadium",
-   "ground": "American Express Stadium"
+   "how": "manual",
+   "venue": "American Express Stadium"
   },
   "10379": {
    "groundId": "osm-way-534217397",
@@ -2115,9 +2070,8 @@
   },
   "10424": {
    "groundId": "osm-way-616253154",
-   "how": "fuzzy",
-   "venue": "Estadio Municipal de Butarque",
-   "ground": "Ontime Butarque"
+   "how": "manual",
+   "venue": "Estadio Municipal de Butarque"
   },
   "10425": {
    "groundId": "osm-way-27197903",
@@ -2150,9 +2104,8 @@
   },
   "10491": {
    "groundId": "osm-way-647719960",
-   "how": "fuzzy",
-   "venue": "Yanmar Stadion",
-   "ground": "Yanmar Hanasaka Stadion"
+   "how": "manual",
+   "venue": "Yanmar Stadion"
   },
   "10525": {
    "groundId": "osm-way-90638647",
@@ -2185,9 +2138,8 @@
   },
   "10556": {
    "groundId": "osm-way-27581749",
-   "how": "fuzzy",
-   "venue": "Stade de la Beaujoire",
-   "ground": "Stade de La Beaujoire - Louis Fonteneau"
+   "how": "manual",
+   "venue": "Stade de la Beaujoire"
   },
   "10598": {
    "groundId": "osm-way-111600868",
@@ -2227,9 +2179,8 @@
   },
   "10633": {
    "groundId": "osm-way-458731140",
-   "how": "name-abroad",
-   "venue": "Riyadh Air Metropolitano",
-   "ground": "Riyadh Air Metropolitano"
+   "how": "manual",
+   "venue": "Riyadh Air Metropolitano"
   },
   "10635": {
    "groundId": "osm-way-93497207",
@@ -2245,9 +2196,8 @@
   },
   "10637": {
    "groundId": "osm-node-624629230",
-   "how": "fuzzy",
-   "venue": "Ipurua",
-   "ground": "Ipurua Futbol Zelaia"
+   "how": "manual",
+   "venue": "Ipurua"
   },
   "10640": {
    "groundId": "osm-way-4540461",
@@ -2311,9 +2261,8 @@
   },
   "10682": {
    "groundId": "osm-way-185585254",
-   "how": "fuzzy",
-   "venue": "Partenio",
-   "ground": "Stadio Partenio-Adriano Lombardi"
+   "how": "manual",
+   "venue": "Partenio"
   },
   "10683": {
    "groundId": "osm-way-27643000",
@@ -2322,9 +2271,8 @@
   },
   "10684": {
    "groundId": "osm-way-124108183",
-   "how": "fuzzy",
-   "venue": "Estadio Dino Manuzzi",
-   "ground": "Orogel Stadium Dino Manuzzi"
+   "how": "manual",
+   "venue": "Estadio Dino Manuzzi"
   },
   "10685": {
    "groundId": "osm-way-30342416",
@@ -2420,9 +2368,8 @@
   },
   "10727": {
    "groundId": "osm-relation-9509541",
-   "how": "fuzzy",
-   "venue": "Yildiz Entegre Kocaeli Stadyumu",
-   "ground": "Kocaeli Stadyumu"
+   "how": "manual",
+   "venue": "Yildiz Entegre Kocaeli Stadyumu"
   },
   "10728": {
    "groundId": "osm-relation-6970589",
@@ -2463,12 +2410,6 @@
    "venue": "Estádio do Clube Desportivo das Aves",
    "ground": "Estádio do Clube Desportivo das Aves"
   },
-  "10738": {
-   "groundId": "osm-way-416581540",
-   "how": "fuzzy",
-   "venue": "Estádio João Cardoso",
-   "ground": "Complexo Desportivo Estádio João Cardoso - Campo n.º 2"
-  },
   "10750": {
    "groundId": "osm-way-168256330",
    "how": "name",
@@ -2489,9 +2430,8 @@
   },
   "10756": {
    "groundId": "osm-way-663050383",
-   "how": "fuzzy",
-   "venue": "The County Ground",
-   "ground": "The Nigel Eady County Ground"
+   "how": "manual",
+   "venue": "The County Ground"
   },
   "10758": {
    "groundId": "osm-way-316427602",
@@ -2584,9 +2524,8 @@
   },
   "10904": {
    "groundId": "osm-way-95507076",
-   "how": "fuzzy",
-   "venue": "The Silverlands",
-   "ground": "Tarmac Silverlands Stadium"
+   "how": "manual",
+   "venue": "The Silverlands"
   },
   "10946": {
    "groundId": "osm-way-38051824",
@@ -2663,15 +2602,13 @@
   },
   "11618": {
    "groundId": "osm-way-103220649",
-   "how": "fuzzy",
-   "venue": "Estádio António Almeida Correia",
-   "ground": "Estádio António Almeida Correia (Foni)"
+   "how": "manual",
+   "venue": "Estádio António Almeida Correia"
   },
   "11622": {
    "groundId": "osm-way-1293729691",
-   "how": "fuzzy",
-   "venue": "Estádio Trigueiros do Aragão",
-   "ground": "Campo de Jogos António Coelho Trigueiros de Aragão"
+   "how": "manual",
+   "venue": "Estádio Trigueiros do Aragão"
   },
   "11623": {
    "groundId": "osm-way-243033353",
@@ -2685,9 +2622,8 @@
   },
   "11634": {
    "groundId": "osm-way-80653790",
-   "how": "fuzzy",
-   "venue": "Estádio Santo António",
-   "ground": "Estádio de Vila Real de Santo António"
+   "how": "manual",
+   "venue": "Estádio Santo António"
   },
   "11651": {
    "groundId": "osm-way-1187941532",
@@ -2703,15 +2639,13 @@
   },
   "11675": {
    "groundId": "osm-way-195519546",
-   "how": "fuzzy",
-   "venue": "Estádio dos Sonhos",
-   "ground": "Estádio de Sonhos"
+   "how": "manual",
+   "venue": "Estádio dos Sonhos"
   },
   "11678": {
    "groundId": "osm-way-23993256",
-   "how": "fuzzy",
-   "venue": "Sportpark Bentinckspark Veld 1",
-   "ground": "Veld 1"
+   "how": "manual",
+   "venue": "Sportpark Bentinckspark Veld 1"
   },
   "11680": {
    "groundId": "osm-way-145734895",
@@ -2726,9 +2660,8 @@
   },
   "11712": {
    "groundId": "osm-way-1002131954",
-   "how": "fuzzy",
-   "venue": "Estádio Municipal D. Nuno Álvares Pereira",
-   "ground": "Estádio Municipal Nuno Álvares Pereira"
+   "how": "manual",
+   "venue": "Estádio Municipal D. Nuno Álvares Pereira"
   },
   "11715": {
    "groundId": "osm-relation-5892720",
