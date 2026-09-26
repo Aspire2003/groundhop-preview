@@ -1,6 +1,6 @@
 {
  "v": 1,
- "generated": "2026-09-24",
+ "generated": "2026-09-26",
  "teams": {
   "6": {
    "name": "Bayer 04 Leverkusen",
@@ -580,9 +580,9 @@
   },
   "4555": {
    "name": "TSV Schott Mainz",
-   "groundId": "osm-way-91231800",
-   "how": "wikidata",
-   "note": "nearest OSM ground (\"Mewa Arena\") to wikidata venue \"Mewa Arena\", 31m"
+   "groundId": null,
+   "how": "none",
+   "note": "Bezirkssportanlage / Otto-Schott-Sportzentrum, Mainz-Mombach - not present in OSM as a discrete ground; auto-build had wrongly matched Mewa Arena (Mainz 05's stadium) via a bad Wikidata P115 link"
   },
   "4568": {
    "name": "SV Westfalia Rhynern",
