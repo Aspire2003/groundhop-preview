@@ -371,36 +371,10 @@
    "venue": "Estadio Heliodoro Rodríguez López",
    "ground": "Estadio Heliodoro Rodríguez López"
   },
-  "1198": {
-   "groundId": "osm-way-1019033128",
-   "how": "manual",
-   "venue": "Bloomfield Stadium"
-  },
-  "1225": {
-   "groundId": "osm-way-858835474",
-   "how": "name",
-   "venue": "Stadionul Steaua",
-   "ground": "Stadionul Steaua"
-  },
   "1228": {
    "groundId": "osm-way-859341022",
    "how": "manual",
    "venue": "Giulesti Stadium"
-  },
-  "1234": {
-   "groundId": "osm-way-1081934900",
-   "how": "manual",
-   "venue": "Dalymount Park"
-  },
-  "1277": {
-   "groundId": "osm-way-531704460",
-   "how": "manual",
-   "venue": "Windsor Park"
-  },
-  "1299": {
-   "groundId": "osm-way-929229208",
-   "how": "manual",
-   "venue": "Jenner Park"
   },
   "1303": {
    "groundId": "osm-node-13333689399",
@@ -423,11 +397,6 @@
    "groundId": "osm-way-4787262",
    "how": "manual",
    "venue": "Right to Dream Park"
-  },
-  "1396": {
-   "groundId": "osm-way-1136152281",
-   "how": "manual",
-   "venue": "Shamrock Park"
   },
   "1407": {
    "groundId": "osm-way-141428090",
@@ -531,28 +500,11 @@
    "how": "manual",
    "venue": "Tammelan Stadion"
   },
-  "1696": {
-   "groundId": "osm-way-1006461993",
-   "how": "name",
-   "venue": "Richmond Park",
-   "ground": "Richmond Park"
-  },
-  "1697": {
-   "groundId": "osm-way-31326890",
-   "how": "name",
-   "venue": "Turner's Cross",
-   "ground": "Turner's Cross Stadium"
-  },
   "1699": {
    "groundId": "osm-way-24252075",
    "how": "name",
    "venue": "Pirelli Stadium",
    "ground": "Pirelli Stadium"
-  },
-  "1703": {
-   "groundId": "osm-way-370203179",
-   "how": "manual",
-   "venue": "The Montgomery Waters Latham Park Stadium"
   },
   "1756": {
    "groundId": "osm-relation-7734852",
@@ -580,11 +532,6 @@
    "how": "name",
    "venue": "Stadion Wankdorf",
    "ground": "Stadion Wankdorf"
-  },
-  "1918": {
-   "groundId": "osm-way-123596437",
-   "how": "manual",
-   "venue": "Park Avenue"
   },
   "1935": {
    "groundId": "osm-relation-18413487",
@@ -631,11 +578,6 @@
    "how": "name",
    "venue": "Parc des Princes",
    "ground": "Parc des Princes"
-  },
-  "2281": {
-   "groundId": "osm-way-140574813",
-   "how": "manual",
-   "venue": "Tolka Park"
   },
   "2323": {
    "groundId": "osm-way-9900000001",
@@ -769,11 +711,6 @@
    "venue": "Lyngby Stadion",
    "ground": "Lyngby Stadion"
   },
-  "2938": {
-   "groundId": "osm-way-151936730",
-   "how": "manual",
-   "venue": "Solitude"
-  },
   "2980": {
    "groundId": "osm-relation-3856635",
    "how": "name",
@@ -824,11 +761,6 @@
    "how": "name",
    "venue": "Alberto Braglia",
    "ground": "Stadio Alberto Braglia"
-  },
-  "3312": {
-   "groundId": "osm-way-1118978821",
-   "how": "manual",
-   "venue": "Park Hall"
   },
   "3328": {
    "groundId": "osm-way-149407785",
@@ -961,41 +893,6 @@
    "how": "manual",
    "venue": "PreZero Arena"
   },
-  "3722": {
-   "groundId": "osm-way-663202951",
-   "how": "name",
-   "venue": "Stadionul Dr. Constantin Radulescu",
-   "ground": "Stadionul Dr. Constantin Rădulescu"
-  },
-  "3739": {
-   "groundId": "osm-way-428489640",
-   "how": "manual",
-   "venue": "Brandywell Stadium"
-  },
-  "3744": {
-   "groundId": "osm-way-1230104580",
-   "how": "name",
-   "venue": "Stangmore Park",
-   "ground": "Stangmore Park"
-  },
-  "3747": {
-   "groundId": "osm-way-38705687",
-   "how": "name",
-   "venue": "Clandeboye Park",
-   "ground": "Clandeboye Park"
-  },
-  "3749": {
-   "groundId": "osm-way-396750041",
-   "how": "name",
-   "venue": "Seaview",
-   "ground": "Seaview"
-  },
-  "3750": {
-   "groundId": "osm-way-1006498723",
-   "how": "name",
-   "venue": "Mourneview Park",
-   "ground": "Mourneview Park"
-  },
   "3758": {
    "groundId": "osm-way-101979167",
    "how": "manual",
@@ -1005,12 +902,6 @@
    "groundId": "osm-relation-2354259",
    "how": "manual",
    "venue": "Sparebanken Sor Arena"
-  },
-  "3768": {
-   "groundId": "osm-way-1267087155",
-   "how": "name",
-   "venue": "Bridge Meadow",
-   "ground": "Bridge Meadow Stadium"
   },
   "3776": {
    "groundId": "osm-relation-10235414",
@@ -1045,12 +936,6 @@
    "how": "name",
    "venue": "Grosvenor Vale",
    "ground": "Grosvenor Vale"
-  },
-  "3983": {
-   "groundId": "osm-way-758783247",
-   "how": "name",
-   "venue": "Maes Tegid",
-   "ground": "Maes Tegid"
   },
   "4024": {
    "groundId": "osm-way-838353907",
@@ -1146,12 +1031,6 @@
    "how": "manual",
    "venue": "AFAS Stadion"
   },
-  "4472": {
-   "groundId": "osm-way-38626330",
-   "how": "name",
-   "venue": "Tallaght Stadium",
-   "ground": "Tallaght Stadium"
-  },
   "4521": {
    "groundId": "osm-way-94220992",
    "how": "manual",
@@ -1167,11 +1046,6 @@
    "groundId": "osm-way-150199670",
    "how": "manual",
    "venue": "Romeo Menti di Castellammare"
-  },
-  "4569": {
-   "groundId": "osm-way-40351151",
-   "how": "manual",
-   "venue": "Taylors Avenue"
   },
   "4571": {
    "groundId": "osm-way-1014038240",
@@ -1189,12 +1063,6 @@
    "how": "name",
    "venue": "Cegeka Arena",
    "ground": "Cegeka Arena"
-  },
-  "4592": {
-   "groundId": "osm-way-11139776",
-   "how": "name",
-   "venue": "Stadionul Otelul",
-   "ground": "Stadionul Oțelul"
   },
   "4600": {
    "groundId": "osm-relation-1642536",
@@ -1216,11 +1084,6 @@
    "groundId": "osm-way-948091319",
    "how": "manual",
    "venue": "Peristeri Stadium"
-  },
-  "4657": {
-   "groundId": "osm-way-13450166",
-   "how": "manual",
-   "venue": "National Arena"
   },
   "4704": {
    "groundId": "osm-way-78626091",
@@ -1271,11 +1134,6 @@
    "how": "manual",
    "venue": "RAMS Park"
   },
-  "5044": {
-   "groundId": "osm-relation-3916231",
-   "how": "manual",
-   "venue": "Netanya Municipal Stadium"
-  },
   "5215": {
    "groundId": "osm-way-302762952",
    "how": "name",
@@ -1315,11 +1173,6 @@
    "venue": "King Power Stadium",
    "ground": "King Power Stadium"
   },
-  "5822": {
-   "groundId": "osm-way-87519745",
-   "how": "manual",
-   "venue": "The Showgrounds"
-  },
   "5866": {
    "groundId": "osm-way-854932752",
    "how": "name",
@@ -1336,22 +1189,11 @@
    "how": "manual",
    "venue": "Toumba Stadium"
   },
-  "5894": {
-   "groundId": "osm-way-15093833",
-   "how": "name",
-   "venue": "Stadionul Ilie Oana",
-   "ground": "Stadionul Ilie Oană"
-  },
   "5898": {
    "groundId": "osm-way-956537676",
    "how": "name",
    "venue": "Elindus Arena",
    "ground": "Elindus Arena"
-  },
-  "5914": {
-   "groundId": "osm-node-828428686",
-   "how": "manual",
-   "venue": "Stadio Vitex Ammochostos Epistrofi"
   },
   "5916": {
    "groundId": "osm-relation-2700814",
@@ -1434,22 +1276,6 @@
    "how": "manual",
    "venue": "The BBSP Stadium"
   },
-  "6319": {
-   "groundId": "osm-way-990706290",
-   "how": "manual",
-   "venue": "Teddi Malcha Stadium"
-  },
-  "6336": {
-   "groundId": "osm-way-213211003",
-   "how": "manual",
-   "venue": "BetMcLean Oval"
-  },
-  "6340": {
-   "groundId": "osm-way-275461186",
-   "how": "name",
-   "venue": "Stadionul Municipal, Botosani",
-   "ground": "Stadionul Municipal Botoșani"
-  },
   "6394": {
    "groundId": "osm-way-1070637472",
    "how": "manual",
@@ -1466,21 +1292,11 @@
    "how": "manual",
    "venue": "Peninsula Stadium"
   },
-  "6498": {
-   "groundId": "osm-way-1162457988",
-   "how": "manual",
-   "venue": "Sammy Ofer Stadium"
-  },
   "6499": {
    "groundId": "osm-way-353267337",
    "how": "name",
    "venue": "Groupama Stadium",
    "ground": "Groupama Stadium"
-  },
-  "6569": {
-   "groundId": "osm-way-169044366",
-   "how": "manual",
-   "venue": "Cluj Arena"
   },
   "6614": {
    "groundId": "osm-way-172455934",
@@ -1520,12 +1336,6 @@
    "how": "manual",
    "venue": "Bravida Arena"
   },
-  "6710": {
-   "groundId": "osm-way-28033627",
-   "how": "name",
-   "venue": "Eamonn Deacy Park",
-   "ground": "Eamonn Deacy Park"
-  },
   "6714": {
    "groundId": "osm-way-553089982",
    "how": "manual",
@@ -1536,11 +1346,6 @@
    "how": "name",
    "venue": "Color Line Stadium",
    "ground": "Color Line stadion"
-  },
-  "6721": {
-   "groundId": "osm-way-120137120",
-   "how": "manual",
-   "venue": "Richmond Park, Carmarthen"
   },
   "6726": {
    "groundId": "osm-way-1208378509",
@@ -1553,41 +1358,6 @@
    "how": "name",
    "venue": "Allianz Stadion",
    "ground": "Allianz Stadion"
-  },
-  "6742": {
-   "groundId": "osm-way-195558637",
-   "how": "manual",
-   "venue": "The Coleraine Showgrounds"
-  },
-  "6743": {
-   "groundId": "osm-way-165516651",
-   "how": "manual",
-   "venue": "The Ballymena Showgrounds"
-  },
-  "6778": {
-   "groundId": "osm-way-656499948",
-   "how": "manual",
-   "venue": "Yaakov Turner Toto Stadium"
-  },
-  "6788": {
-   "groundId": "osm-way-215208362",
-   "how": "manual",
-   "venue": "Stadionul Central Academia Gheorghe Hagi"
-  },
-  "6791": {
-   "groundId": "osm-way-514830180",
-   "how": "manual",
-   "venue": "AEK Arena"
-  },
-  "6809": {
-   "groundId": "osm-relation-3916329",
-   "how": "manual",
-   "venue": "Ha Moshava"
-  },
-  "6811": {
-   "groundId": "osm-way-100621785",
-   "how": "manual",
-   "venue": "Yud-Alef Stadium"
   },
   "6827": {
    "groundId": "osm-way-521570813",
@@ -1605,11 +1375,6 @@
    "how": "name",
    "venue": "Bellsdale Park",
    "ground": "Bellsdale Park"
-  },
-  "6927": {
-   "groundId": "osm-way-26528570",
-   "how": "manual",
-   "venue": "Sullivan & Lambe Park"
   },
   "6962": {
    "groundId": "osm-way-25018255",
@@ -1642,21 +1407,10 @@
    "venue": "Bosuilstadion",
    "ground": "Bosuilstadion"
   },
-  "7305": {
-   "groundId": "osm-way-146254489",
-   "how": "manual",
-   "venue": "Acre Municipal Stadium"
-  },
   "7308": {
    "groundId": "osm-way-511921392",
    "how": "manual",
    "venue": "JYSK Park"
-  },
-  "7336": {
-   "groundId": "osm-way-239542656",
-   "how": "name",
-   "venue": "Ion Oblemenco",
-   "ground": "Stadionul Ion Oblemenco"
   },
   "7362": {
    "groundId": "osm-way-169980387",
@@ -1691,12 +1445,6 @@
    "venue": "Stade Marcel-Tribut",
    "ground": "Stade Marcel Tribut"
   },
-  "7581": {
-   "groundId": "osm-way-39076878",
-   "how": "name",
-   "venue": "Waterford Regional Sports Centre",
-   "ground": "Waterford Regional Sports Centre"
-  },
   "7677": {
    "groundId": "osm-way-239542656",
    "how": "manual",
@@ -1714,11 +1462,6 @@
    "venue": "Tottenham Hotspur Stadium",
    "ground": "Tottenham Hotspur Stadium"
   },
-  "7851": {
-   "groundId": "osm-way-114140083",
-   "how": "manual",
-   "venue": "The Oval, Caernarfon"
-  },
   "7873": {
    "groundId": "osm-way-231049506",
    "how": "manual",
@@ -1734,26 +1477,6 @@
    "groundId": "osm-way-170350372",
    "how": "manual",
    "venue": "Stade Bauer"
-  },
-  "8140": {
-   "groundId": "osm-way-637224257",
-   "how": "manual",
-   "venue": "Inver Park"
-  },
-  "8142": {
-   "groundId": "osm-way-1244549267",
-   "how": "manual",
-   "venue": "SDM Glass Stadium"
-  },
-  "8151": {
-   "groundId": "osm-way-23600174",
-   "how": "manual",
-   "venue": "Stadionul Clinceni"
-  },
-  "8254": {
-   "groundId": "osm-way-1123069978",
-   "how": "manual",
-   "venue": "Stadionul Municipal, Sibiu"
   },
   "8265": {
    "groundId": "osm-way-505855896",
@@ -1771,27 +1494,11 @@
    "how": "manual",
    "venue": "Esenyurt Necmi Kadioglu Stadi"
   },
-  "8469": {
-   "groundId": "osm-way-217616613",
-   "how": "name",
-   "venue": "Stadionul Orasenesc Mioveni",
-   "ground": "Stadionul Mioveni"
-  },
   "8493": {
    "groundId": "osm-way-182832436",
    "how": "name",
    "venue": "Estádio de São Luís",
    "ground": "Estádio de São Luís"
-  },
-  "8501": {
-   "groundId": "osm-way-1238802314",
-   "how": "manual",
-   "venue": "Essity Stadium"
-  },
-  "8512": {
-   "groundId": "osm-way-849731689",
-   "how": "manual",
-   "venue": "Stadionul Francisc von Neuman"
   },
   "8528": {
    "groundId": "osm-way-845872683",
@@ -1821,25 +1528,10 @@
    "how": "manual",
    "venue": "Stora Valla"
   },
-  "8732": {
-   "groundId": "osm-way-623589489",
-   "how": "manual",
-   "venue": "Green Stadium, Nazareth Illit"
-  },
-  "8751": {
-   "groundId": "osm-way-859341022",
-   "how": "manual",
-   "venue": "Arena Giulesti"
-  },
   "8842": {
    "groundId": "osm-way-908440531",
    "how": "manual",
    "venue": "Europa-Park Stadion"
-  },
-  "8853": {
-   "groundId": "osm-way-1374966139",
-   "how": "manual",
-   "venue": "Stadio Dasaki Achnas"
   },
   "8861": {
    "groundId": "osm-way-103636328",
@@ -1908,12 +1600,6 @@
    "venue": "Estádio Municipal de Albufeira",
    "ground": "Estádio Municipal de Albufeira"
   },
-  "9639": {
-   "groundId": "osm-way-1186013803",
-   "how": "name",
-   "venue": "Alphamega Stadium",
-   "ground": "AlphaMega Stadium"
-  },
   "9656": {
    "groundId": "osm-way-3869991",
    "how": "manual",
@@ -1942,11 +1628,6 @@
    "how": "manual",
    "venue": "Campo Domingos Carrilho Patalino"
   },
-  "9850": {
-   "groundId": "osm-way-1115941818",
-   "how": "manual",
-   "venue": "Stelios Kyriakides Stadium"
-  },
   "9867": {
    "groundId": "osm-way-25074936",
    "how": "manual",
@@ -1956,11 +1637,6 @@
    "groundId": "osm-way-663134990",
    "how": "manual",
    "venue": "Soeverein Stadion"
-  },
-  "9995": {
-   "groundId": "osm-way-53802723",
-   "how": "manual",
-   "venue": "The Renewable Centre Stadium"
   },
   "10019": {
    "groundId": "osm-relation-976258",
@@ -2144,11 +1820,6 @@
    "venue": "Power Horse Stadium",
    "ground": "Power Horse Stadium"
   },
-  "10437": {
-   "groundId": "osm-way-537525043",
-   "how": "manual",
-   "venue": "Antonis Papadopoulous"
-  },
   "10439": {
    "groundId": "osm-way-41813956",
    "how": "name",
@@ -2296,11 +1967,6 @@
    "how": "name",
    "venue": "Stade Francis Le Basser",
    "ground": "Stade Francis-Le-Basser"
-  },
-  "10667": {
-   "groundId": "osm-way-181088426",
-   "how": "manual",
-   "venue": "Paralimni Stadium"
   },
   "10677": {
    "groundId": "osm-relation-17339237",
@@ -2670,10 +2336,9 @@
    "ground": "Estádio do Bolhão"
   },
   "11617": {
-   "groundId": "osm-way-22660087",
-   "how": "name",
-   "venue": "Estádio 1 de Maio'",
-   "ground": "Estádio 1º de Maio"
+   "groundId": "osm-way-588193575",
+   "how": "manual",
+   "venue": "Estádio 1 de Maio'"
   },
   "11618": {
    "groundId": "osm-way-103220649",
