@@ -2419,6 +2419,12 @@
    "how": "name",
    "venue": "Estádio Cidade de Coimbra",
    "ground": "Estádio Cidade de Coimbra"
+  },
+  "11838": {
+   "groundId": "osm-way-193045300",
+   "how": "name",
+   "venue": "Estadio de Tasagaya",
+   "ground": "Estadio Municipal Tasagaya"
   }
  }
 }
