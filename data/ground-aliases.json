@@ -177,6 +177,27 @@
       "name": "K. Rupel Boom F.C",
       "city": "Boom",
       "source": "Rupel Boom FC's Gemeentelijk Parkstadion, Boom: https://nl.wikipedia.org/wiki/K._Rupel_Boom_FC"
+    },
+    {
+      "alias": "sportcomplex boorsem",
+      "groundId": "club-boorsem-sport",
+      "name": "K. Boorsem Sport",
+      "city": "Maasmechelen",
+      "source": "Club ground Grotestraat 147a, 3631 Boorsem (club info): https://www.boorsemsport.be/9-clubinfo"
+    },
+    {
+      "alias": "biesenveldweg",
+      "groundId": "club-kmr-biesen",
+      "name": "KMR Biesen",
+      "city": "Bilzen",
+      "source": "KMR Biesen, Biesenveldweg 1, 3742 Bilzen: https://www.kmrbiesen.be/p/contact.html"
+    },
+    {
+      "alias": "terrein eldersbroek",
+      "groundId": "osm-way-29371457",
+      "name": "Victoria V.V",
+      "city": "Tongeren",
+      "source": "KVVV 's Herenelderen complex at Eldersbroek, 's Herenelderen (Tongeren): https://www.kvvv-sherenelderen.be/nl/complex/"
     }
   ]
 }
