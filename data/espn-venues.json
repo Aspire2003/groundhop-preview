@@ -107,11 +107,23 @@
    "how": "manual",
    "venue": "STōK Cae Ras"
   },
+  "150": {
+   "groundId": "osm-way-47484057",
+   "how": "name",
+   "venue": "Brunton Park",
+   "ground": "Brunton Park"
+  },
   "152": {
    "groundId": "osm-way-23381655",
    "how": "name",
    "venue": "St. James' Park",
    "ground": "St. James' Park"
+  },
+  "154": {
+   "groundId": "osm-way-314907430",
+   "how": "name",
+   "venue": "Aggborough Stadium",
+   "ground": "Aggborough Stadium"
   },
   "157": {
    "groundId": "osm-way-23604325",
@@ -270,6 +282,16 @@
    "venue": "Crown Oil Arena",
    "ground": "Crown Oil Arena"
   },
+  "223": {
+   "groundId": "osm-way-114443726",
+   "how": "manual",
+   "venue": "Attis Arena"
+  },
+  "233": {
+   "groundId": "osm-way-146631430",
+   "how": "manual",
+   "venue": "Huish Park"
+  },
   "234": {
    "groundId": "osm-way-263291554",
    "how": "name",
@@ -371,6 +393,16 @@
    "venue": "Estadio Heliodoro Rodríguez López",
    "ground": "Estadio Heliodoro Rodríguez López"
   },
+  "1159": {
+   "groundId": "osm-way-37797469",
+   "how": "manual",
+   "venue": "The EBB Stadium"
+  },
+  "1160": {
+   "groundId": "osm-way-4313090",
+   "how": "manual",
+   "venue": "J. Davidson Stadium"
+  },
   "1228": {
    "groundId": "osm-way-859341022",
    "how": "manual",
@@ -393,6 +425,11 @@
    "venue": "McDiarmid Park",
    "ground": "McDiarmid Park"
   },
+  "1349": {
+   "groundId": "osm-way-386844694",
+   "how": "manual",
+   "venue": "SO Legal Stadium"
+  },
   "1376": {
    "groundId": "osm-way-4787262",
    "how": "manual",
@@ -408,6 +445,11 @@
    "groundId": "osm-way-35155939",
    "how": "manual",
    "venue": "Wham Stadium"
+  },
+  "1454": {
+   "groundId": "osm-way-153653957",
+   "how": "manual",
+   "venue": "The Lamb Ground"
   },
   "1467": {
    "groundId": "osm-way-547707192",
@@ -654,6 +696,11 @@
    "how": "manual",
    "venue": "Sportpark De Westmaat (IJsselmeervogels)"
   },
+  "2499": {
+   "groundId": "osm-way-1240186958",
+   "how": "manual",
+   "venue": "Sportpark Zuid"
+  },
   "2585": {
    "groundId": "osm-way-39256141",
    "how": "name",
@@ -761,6 +808,11 @@
    "how": "name",
    "venue": "Alberto Braglia",
    "ground": "Stadio Alberto Braglia"
+  },
+  "3282": {
+   "groundId": "osm-way-142590938",
+   "how": "manual",
+   "venue": "The Bolt New Lawn"
   },
   "3328": {
    "groundId": "osm-way-149407785",
@@ -876,6 +928,17 @@
    "how": "name",
    "venue": "Kynoch Park",
    "ground": "Kynoch Park"
+  },
+  "3659": {
+   "groundId": "osm-way-502320590",
+   "how": "manual",
+   "venue": "VBS Community Stadium"
+  },
+  "3661": {
+   "groundId": "osm-way-23042163",
+   "how": "name",
+   "venue": "Hornchurch Stadium",
+   "ground": "Hornchurch Stadium"
   },
   "3670": {
    "groundId": "osm-way-219432070",
@@ -1031,6 +1094,11 @@
    "how": "manual",
    "venue": "AFAS Stadion"
   },
+  "4484": {
+   "groundId": "osm-way-93459787",
+   "how": "manual",
+   "venue": "Gateshead International Stadium"
+  },
   "4521": {
    "groundId": "osm-way-94220992",
    "how": "manual",
@@ -1089,6 +1157,11 @@
    "groundId": "osm-way-78626091",
    "how": "manual",
    "venue": "King Power at Den Dreef Stadion"
+  },
+  "4812": {
+   "groundId": "osm-way-177037520",
+   "how": "manual",
+   "venue": "Estádio Dr. Magalhaes Pessoa"
   },
   "4840": {
    "groundId": "osm-relation-443040",
@@ -1359,6 +1432,17 @@
    "venue": "Allianz Stadion",
    "ground": "Allianz Stadion"
   },
+  "6741": {
+   "groundId": "osm-way-24630340",
+   "how": "name",
+   "venue": "The Laithwaite Community Stadium",
+   "ground": "The Laithwaite Community Stadium"
+  },
+  "6768": {
+   "groundId": "osm-way-136207897",
+   "how": "manual",
+   "venue": "Estádio Municipal Manuel Branco Teixeira"
+  },
   "6827": {
    "groundId": "osm-way-521570813",
    "how": "manual",
@@ -1369,6 +1453,31 @@
    "how": "name",
    "venue": "Kybunpark",
    "ground": "kybunpark"
+  },
+  "6868": {
+   "groundId": "osm-way-6315929",
+   "how": "manual",
+   "venue": "Sportpark De Krom"
+  },
+  "6870": {
+   "groundId": "osm-way-39323667",
+   "how": "manual",
+   "venue": "Sportpark Spanjaardslaan"
+  },
+  "6875": {
+   "groundId": "osm-way-89702722",
+   "how": "manual",
+   "venue": "Sportpark De Bongerd"
+  },
+  "6876": {
+   "groundId": "osm-way-208116596",
+   "how": "manual",
+   "venue": "Sportpark De Zwaaier"
+  },
+  "6877": {
+   "groundId": "osm-way-137219890",
+   "how": "manual",
+   "venue": "Sportpark De Boshoek"
   },
   "6902": {
    "groundId": "osm-way-633980270",
@@ -1467,6 +1576,11 @@
    "how": "manual",
    "venue": "Erzurum Kazim Karabekir"
   },
+  "7923": {
+   "groundId": "osm-way-272168194",
+   "how": "manual",
+   "venue": "Sportpark Dijkpolder"
+  },
   "7963": {
    "groundId": "osm-way-935164075",
    "how": "name",
@@ -1477,6 +1591,16 @@
    "groundId": "osm-way-170350372",
    "how": "manual",
    "venue": "Stade Bauer"
+  },
+  "7982": {
+   "groundId": "osm-way-74797649",
+   "how": "manual",
+   "venue": "Sportpark De Westmaat (Spakenburg)"
+  },
+  "8255": {
+   "groundId": "osm-way-367777810",
+   "how": "manual",
+   "venue": "Sportpark Denoek"
   },
   "8265": {
    "groundId": "osm-way-505855896",
@@ -1539,6 +1663,11 @@
    "venue": "Newtown Park",
    "ground": "Newtown Park"
   },
+  "8882": {
+   "groundId": "osm-node-2772815805",
+   "how": "manual",
+   "venue": "Sportpark ICT Specialist"
+  },
   "8902": {
    "groundId": "osm-way-952291708",
    "how": "name",
@@ -1588,6 +1717,11 @@
    "how": "manual",
    "venue": "Diyarbakir Stadyumu"
   },
+  "9372": {
+   "groundId": "osm-way-29287446",
+   "how": "manual",
+   "venue": "Sussex Transport Community Stadium"
+  },
   "9593": {
    "groundId": "osm-way-374379087",
    "how": "name",
@@ -1599,6 +1733,11 @@
    "how": "name",
    "venue": "Estádio Municipal de Albufeira",
    "ground": "Estádio Municipal de Albufeira"
+  },
+  "9639": {
+   "groundId": "osm-way-1115941818",
+   "how": "manual",
+   "venue": "Alphamega Stadium"
   },
   "9656": {
    "groundId": "osm-way-3869991",
@@ -2151,11 +2290,27 @@
    "venue": "Estádio do Clube Desportivo das Aves",
    "ground": "Estádio do Clube Desportivo das Aves"
   },
+  "10739": {
+   "groundId": "osm-way-102722693",
+   "how": "manual",
+   "venue": "EnviroVent Stadium"
+  },
   "10750": {
    "groundId": "osm-way-168256330",
    "how": "name",
    "venue": "The Completely-Suzuki Stadium",
    "ground": "Completely-Suzuki Stadium"
+  },
+  "10752": {
+   "groundId": "osm-way-841340149",
+   "how": "manual",
+   "venue": "The MBi Shay Stadium"
+  },
+  "10753": {
+   "groundId": "osm-way-90439495",
+   "how": "name",
+   "venue": "Roots Hall",
+   "ground": "Roots Hall Stadium"
   },
   "10754": {
    "groundId": "osm-way-193882835",
@@ -2173,6 +2328,12 @@
    "groundId": "osm-way-663050383",
    "how": "manual",
    "venue": "The County Ground"
+  },
+  "10757": {
+   "groundId": "osm-way-795936880",
+   "how": "name",
+   "venue": "Jakemans Community Stadium",
+   "ground": "The Jakemans Community Stadium"
   },
   "10758": {
    "groundId": "osm-way-316427602",
@@ -2215,6 +2376,16 @@
    "how": "name",
    "venue": "Estádio Capital do Móvel",
    "ground": "Estádio Capital do Móvel"
+  },
+  "10851": {
+   "groundId": "osm-way-34258560",
+   "how": "manual",
+   "venue": "The Suit Direct Stadium"
+  },
+  "10864": {
+   "groundId": "osm-way-76586765",
+   "how": "manual",
+   "venue": "ARMCO Areana"
   },
   "10866": {
    "groundId": "osm-way-217861110",
@@ -2279,6 +2450,21 @@
    "venue": "Örjans Vall",
    "ground": "Örjans vall"
   },
+  "10948": {
+   "groundId": "osm-way-204869221",
+   "how": "manual",
+   "venue": "Sportpark Middelmors"
+  },
+  "10958": {
+   "groundId": "osm-way-64605631",
+   "how": "manual",
+   "venue": "Sportpark Panhuis"
+  },
+  "10959": {
+   "groundId": "osm-way-356658022",
+   "how": "manual",
+   "venue": "Sportpark Nioeuw Zuid"
+  },
   "10970": {
    "groundId": "osm-way-155692708",
    "how": "name",
@@ -2289,6 +2475,11 @@
    "groundId": "osm-relation-8250697",
    "how": "manual",
    "venue": "Nordstern Arena Horsens"
+  },
+  "11348": {
+   "groundId": "osm-way-812813504",
+   "how": "manual",
+   "venue": "Mill Farm Sports Village"
   },
   "11472": {
    "groundId": "osm-relation-12078203",
@@ -2413,6 +2604,11 @@
    "how": "name",
    "venue": "Estádio Municipal da Madalena",
    "ground": "Estádio Municipal da Madalena"
+  },
+  "11734": {
+   "groundId": "osm-way-160545455",
+   "how": "manual",
+   "venue": "Sportpark Drieburg (JOS Watergraafsmeer)"
   },
   "11837": {
    "groundId": "osm-way-58257174",

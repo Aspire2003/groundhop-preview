@@ -198,6 +198,62 @@
       "name": "Victoria V.V",
       "city": "Tongeren",
       "source": "KVVV 's Herenelderen complex at Eldersbroek, 's Herenelderen (Tongeren): https://www.kvvv-sherenelderen.be/nl/complex/"
+    },
+    {
+      "alias": "tamworth fc",
+      "groundId": "osm-way-153653957",
+      "name": "The Lamb Ground",
+      "city": "Tamworth",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "rijnsburgse boys",
+      "groundId": "osm-way-204869221",
+      "name": "Sportpark Middelmors",
+      "city": "Rijnsburg",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "worthing fc",
+      "groundId": "osm-way-29287446",
+      "name": "Woodside Road",
+      "city": "Worthing",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "quick boys",
+      "groundId": "osm-way-356658022",
+      "name": "Sportpark Nieuw Zuid",
+      "city": "Katwijk",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "furness building society stadium",
+      "groundId": "osm-way-386844694",
+      "name": "Holker Street",
+      "city": "Barrow-in-Furness",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "sv spakenburg",
+      "groundId": "osm-way-74797649",
+      "name": "Sportpark De Westmaat (Spakenburg)",
+      "city": "Bunschoten-Spakenburg",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "ijsselmeervogels",
+      "groundId": "osm-way-74795003",
+      "name": "Sportpark De Westmaat (IJsselmeervogels)",
+      "city": "Bunschoten-Spakenburg",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "excelsior m",
+      "groundId": "osm-way-272168194",
+      "name": "Sportpark Dijkpolder",
+      "city": "Maassluis",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
     }
   ]
 }
