@@ -80,6 +80,19 @@
   .login-card { max-width: 360px; margin: 15vh auto 0; }
   .login-card p { font-size: 13px; line-height: 1.5; color: #6B8A76; }
   .login-card form { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+  .tabs button { background: transparent; color: var(--chalk); border: 1px solid rgba(255,255,255,0.5); }
+  .tabs button.active { background: var(--chalk); color: var(--ink); border-color: var(--chalk); }
+  .mapping .title { font-weight: 700; font-size: 15px; }
+  .mapping .kind-badge { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--chalk); background: var(--pitch); border-radius: 4px; padding: 2px 6px; margin-right: 6px; }
+  .mapping .arrow { color: #6B8A76; margin: 0 4px; }
+  .mapping .actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .mapping .actions button { min-height: 44px; }
+  .mapping .actions button.revert { background: var(--chalk); color: var(--alert); border: 1px solid var(--alert); }
+  .mapping .actions button.approve { background: var(--pitch); color: var(--chalk); }
+  .status-badge { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 4px; padding: 2px 6px; border: 1px solid var(--border); }
+  .status-badge.approved { background: var(--pitch); color: var(--chalk); border-color: var(--pitch); }
+  .status-badge.reverted { color: var(--alert); border-color: var(--alert); }
 </style>
 </head>
 <body>
@@ -105,6 +118,10 @@
   </section>
 
   <section id="view-app" class="hidden">
+    <div class="tabs">
+      <button type="button" class="small active" id="tab-reports">Meldingen</button>
+      <button type="button" class="small" id="tab-mappings">Geleerd</button>
+    </div>
     <div id="view-list">
       <div id="stats" class="stat-row"></div>
       <div class="filters">
@@ -140,6 +157,36 @@
     <div id="view-detail" class="hidden">
       <span class="back-link" id="back-btn">&larr; Terug naar overzicht</span>
       <div id="detail-reports"></div>
+    </div>
+    <div id="view-mappings" class="hidden">
+      <div id="mapping-stats" class="stat-row"></div>
+      <div class="filters">
+        <select id="mapping-status">
+          <option value="pending">Wacht op goedkeuring</option>
+          <option value="approved">Goedgekeurd</option>
+          <option value="reverted">Teruggedraaid</option>
+          <option value="all">Alle statussen</option>
+        </select>
+        <select id="mapping-kind">
+          <option value="all">Alle soorten</option>
+          <option value="ground_alias">Stadionnaam</option>
+          <option value="new_ground">Nieuw stadion</option>
+          <option value="club_alias">Clubnaam</option>
+          <option value="score">Uitslag</option>
+          <option value="match_ground">Stadion van een wedstrijd</option>
+        </select>
+        <button class="ghost small" id="mapping-refresh">Vernieuwen</button>
+      </div>
+      <div id="mappings"></div>
+      <div id="mappings-empty" class="empty hidden">
+        <h2>Nog niets geleerd</h2>
+        <p>
+          Kiest iemand in de app een stadion voor een import-regel die we niet herkenden, of verbetert iemand een
+          uitslag, clubnaam of stadion, dan verschijnt dat hier. Na 3 verschillende toestellen met hetzelfde antwoord
+          wordt het vanzelf goedgekeurd; jij kunt eerder goedkeuren of iets terugdraaien. De nachtelijke
+          ground-finder zet hier ook wat hij vond, met de bron.
+        </p>
+      </div>
     </div>
   </section>
 </div>

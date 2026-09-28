@@ -230,6 +230,175 @@
     renderList();
   }
 
+  // ---------- "Geleerd": learned mappings (supabase/migrations/20260928090000_learned_mappings.sql) ----------
+  // One card per distinct mapping (kind + folded key + target), however many phones sent it. Approve
+  // and revert act on every row of that mapping at once; the database's own vote trigger keeps a
+  // revert in place when more votes arrive later.
+
+  var MAPPING_KIND_LABEL = { ground_alias: 'Stadionnaam', new_ground: 'Nieuw stadion', club_alias: 'Clubnaam', score: 'Uitslag', match_ground: 'Stadion van een wedstrijd' };
+  var MAPPING_STATUS_LABEL = { pending: 'Wacht', approved: 'Goedgekeurd', reverted: 'Teruggedraaid' };
+  var APPROVED_BY_LABEL = { votes: '3 toestellen', admin: 'jij', agent: 'ground-finder' };
+  var allMappings = [];
+  var mappingGroups = {};
+
+  function goalsText(g) {
+    return g ? g.home + '–' + g.away : 'geen uitslag';
+  }
+
+  /** What the mapping says, in words: "Sportpark Noord → osm-way-1 (Sportpark Noord, Utrecht)". */
+  function mappingTarget(m) {
+    var v = m.value || {};
+    switch (m.kind) {
+      case 'score':
+        return goalsText(v.from) + ' → ' + goalsText(v.to);
+      case 'club_alias':
+        return v.name || m.target_key;
+      case 'match_ground':
+        return (v.from || '?') + ' → ' + (m.target_id || '');
+      case 'new_ground':
+        return [v.name, v.kind, v.address, v.city, v.country].filter(Boolean).join(' · ');
+      default:
+        return m.target_id || m.target_key;
+    }
+  }
+
+  /** The status a group shows: approved if any row is, else reverted if any row is, else pending. */
+  function groupStatus(rows) {
+    if (rows.some(function (r) { return r.status === 'approved'; })) return 'approved';
+    if (rows.some(function (r) { return r.status === 'reverted'; })) return 'reverted';
+    return 'pending';
+  }
+
+  function buildMappingGroups(rows) {
+    var byKey = {};
+    rows.forEach(function (r) {
+      var k = r.kind + '|' + r.key_norm + '|' + r.target_key;
+      (byKey[k] = byKey[k] || []).push(r);
+    });
+    return Object.keys(byKey).map(function (k) {
+      var members = byKey[k];
+      var devices = {};
+      members.forEach(function (r) { if (r.device_id) devices[r.device_id] = true; });
+      var approvedRow = members.find(function (r) { return r.status === 'approved'; });
+      var agentRow = members.find(function (r) { return r.origin === 'agent'; });
+      return {
+        key: k,
+        sample: agentRow || members[0],
+        members: members,
+        devices: Object.keys(devices).length,
+        status: groupStatus(members),
+        approvedBy: approvedRow ? approvedRow.approved_by : null,
+        latest: members.reduce(function (a, r) { return a > r.created_at ? a : r.created_at; }, ''),
+      };
+    }).sort(function (a, b) { return b.devices - a.devices || (b.latest > a.latest ? 1 : -1); });
+  }
+
+  function renderMappingStats() {
+    var groups = buildMappingGroups(allMappings);
+    var count = { pending: 0, approved: 0, reverted: 0 };
+    groups.forEach(function (g) { count[g.status] += 1; });
+    $('mapping-stats').innerHTML = ['pending', 'approved', 'reverted'].map(function (s) {
+      return '<div class="stat"><span class="n">' + count[s] + '</span><span class="label">' + esc(MAPPING_STATUS_LABEL[s]) + '</span></div>';
+    }).join('');
+  }
+
+  function mappingCard(g) {
+    var m = g.sample;
+    var who = g.status === 'approved' ? 'goedgekeurd door ' + (APPROVED_BY_LABEL[g.approvedBy] || g.approvedBy || '?')
+      : g.devices === 0 ? 'van de ground-finder'
+      : g.devices + (g.devices === 1 ? ' toestel' : ' toestellen');
+    var osm = /^osm-(node|way|relation)-(\d+)$/.exec(m.target_id || '');
+    var agentBits = m.origin === 'agent'
+      ? '<div class="field muted">Ground-finder · zekerheid ' + esc(m.confidence == null ? '?' : Math.round(m.confidence * 100) + '%') +
+        (m.source_url ? ' · <a href="' + esc(m.source_url) + '" target="_blank" rel="noopener noreferrer">bron</a>' : '') + '</div>'
+      : '';
+    var coords = m.kind === 'new_ground' && m.value && typeof m.value.lat === 'number'
+      ? '<div class="field muted"><a href="https://www.openstreetmap.org/?mlat=' + m.value.lat + '&mlon=' + m.value.lon + '#map=17/' + m.value.lat + '/' + m.value.lon + '" target="_blank" rel="noopener noreferrer">' + m.value.lat.toFixed(5) + ', ' + m.value.lon.toFixed(5) + '</a></div>'
+      : '';
+    var note = g.members.map(function (r) { return r.admin_note; }).filter(Boolean)[0];
+    var actions = (g.status !== 'approved' ? '<button type="button" class="approve" data-approve="' + esc(g.key) + '">Goedkeuren</button>' : '') +
+      (g.status !== 'reverted' ? '<button type="button" class="revert" data-revert="' + esc(g.key) + '">Terugdraaien</button>' : '');
+    return (
+      '<div class="card report mapping">' +
+      '<div class="row1"><div class="title"><span class="kind-badge">' + esc(MAPPING_KIND_LABEL[m.kind] || m.kind) + '</span>' +
+      esc(m.key_text) + '<span class="arrow">→</span>' + esc(mappingTarget(m)) + '</div></div>' +
+      (m.match_date ? '<div class="field muted">Wedstrijd van ' + esc(fmtDate(m.match_date)) + '</div>' : '') +
+      (osm ? '<div class="field muted"><a href="https://www.openstreetmap.org/' + osm[1] + '/' + osm[2] + '" target="_blank" rel="noopener noreferrer">' + esc(m.target_id) + ' op de kaart</a></div>' : '') +
+      coords + agentBits +
+      (note ? '<div class="field"><b>Notitie:</b> ' + esc(note) + '</div>' : '') +
+      '<div class="field muted"><span class="status-badge ' + g.status + '">' + esc(MAPPING_STATUS_LABEL[g.status]) + '</span> · ' + esc(who) + ' · laatst ' + esc(fmtDate(g.latest)) + '</div>' +
+      '<div class="actions">' + actions + '<span class="muted" data-mapping-msg style="font-size:13px;align-self:center;"></span></div>' +
+      '</div>'
+    );
+  }
+
+  function renderMappings() {
+    renderMappingStats();
+    var status = $('mapping-status').value;
+    var kind = $('mapping-kind').value;
+    var groups = buildMappingGroups(allMappings).filter(function (g) {
+      return (status === 'all' || g.status === status) && (kind === 'all' || g.sample.kind === kind);
+    });
+    mappingGroups = {};
+    groups.forEach(function (g) { mappingGroups[g.key] = g; });
+    $('mappings-empty').classList.toggle('hidden', allMappings.length > 0);
+    if (allMappings.length === 0) {
+      $('mappings').innerHTML = '';
+      return;
+    }
+    $('mappings').innerHTML = groups.length
+      ? '<div class="card">' + groups.map(mappingCard).join('') + '</div>'
+      : '<p class="muted" style="padding:12px 4px;">Niets voor dit filter.</p>';
+    Array.prototype.forEach.call($('mappings').querySelectorAll('[data-approve]'), function (btn) {
+      btn.addEventListener('click', function () { void setMappingStatus(btn, btn.getAttribute('data-approve'), 'approved'); });
+    });
+    Array.prototype.forEach.call($('mappings').querySelectorAll('[data-revert]'), function (btn) {
+      btn.addEventListener('click', function () { void setMappingStatus(btn, btn.getAttribute('data-revert'), 'reverted'); });
+    });
+  }
+
+  async function setMappingStatus(btn, key, status) {
+    var g = mappingGroups[key];
+    if (!g) return;
+    var m = g.sample;
+    var patch = status === 'approved'
+      ? { status: 'approved', approved_by: 'admin', approved_at: new Date().toISOString() }
+      : { status: 'reverted', approved_by: null, approved_at: null };
+    var msg = btn.parentNode.querySelector('[data-mapping-msg]');
+    btn.disabled = true;
+    var { error } = await sb.from('learned_mappings').update(patch).eq('kind', m.kind).eq('key_norm', m.key_norm).eq('target_key', m.target_key);
+    btn.disabled = false;
+    if (error) {
+      msg.textContent = 'Opslaan mislukt.';
+      return;
+    }
+    g.members.forEach(function (r) { Object.assign(r, patch); });
+    renderMappings();
+  }
+
+  async function loadMappings() {
+    var { data, error } = await sb.from('learned_mappings').select('*').order('created_at', { ascending: false }).limit(10000);
+    if (error) {
+      $('mappings').innerHTML = '';
+      $('mappings-empty').classList.remove('hidden');
+      $('mappings-empty').querySelector('h2').textContent = 'Kon geleerde koppelingen niet laden';
+      return;
+    }
+    allMappings = data || [];
+    renderMappings();
+  }
+
+  function showTab(which) {
+    var mappings = which === 'mappings';
+    $('tab-reports').classList.toggle('active', !mappings);
+    $('tab-mappings').classList.toggle('active', mappings);
+    $('view-mappings').classList.toggle('hidden', !mappings);
+    $('view-detail').classList.add('hidden');
+    $('view-list').classList.toggle('hidden', mappings);
+    if (mappings) void loadMappings();
+    else void loadReports();
+  }
+
   function showApp(email) {
     $('view-login').classList.add('hidden');
     $('view-app').classList.remove('hidden');
@@ -267,6 +436,11 @@
   $('refresh-btn').addEventListener('click', function () { void loadReports(); });
   $('filter-status').addEventListener('change', renderList);
   $('filter-kind').addEventListener('change', renderList);
+  $('tab-reports').addEventListener('click', function () { showTab('reports'); });
+  $('tab-mappings').addEventListener('click', function () { showTab('mappings'); });
+  $('mapping-refresh').addEventListener('click', function () { void loadMappings(); });
+  $('mapping-status').addEventListener('change', renderMappings);
+  $('mapping-kind').addEventListener('change', renderMappings);
   $('back-btn').addEventListener('click', function () {
     $('view-detail').classList.add('hidden');
     $('view-list').classList.remove('hidden');
