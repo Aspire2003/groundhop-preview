@@ -5,10 +5,10 @@
   "aliases": [
     {
       "alias": "sportpark katteberg",
-      "groundId": "osm-way-224993089",
-      "name": "Belisia SV",
+      "groundId": "osm-way-211350107",
+      "name": "Sportpark Katteberg",
       "city": "Bilzen",
-      "source": "Owner-confirmed (28 Sep 2026): home ground of SV Belisia and K Bilzerse Waltwilder VV, sharing the pitch -- our own grounds.db already carries it as \"Belisia SV\", Bilzen (50.86097,5.54395). Added after a real account's import placed this exact text near Amsterdam via an unguarded Nominatim geocode."
+      "source": "Sportpark Katteberg is Zeepstraat 46, 3740 Bilzen (bilzenhoeselt.be zaalzoeker; RBFA venue for Belisia Bilzen SV, 29 Sep 2026): the OSM pitch there (osm-way-211350107). Corrected 29 Sep 2026 from osm-way-224993089, which is the Sportveldstraat pitch in Waltwilder, 2.2 km away."
     },
     {
       "alias": "ksk jeugdcomplex kleinveldje",
