@@ -1,0 +1,117 @@
+{
+  "v": 1,
+  "generated": "2026-09-29T10:55:37.000Z",
+  "note": "Hand-researched ground moves for amateur/lower Belgian clubs historic-grounds.json (Wikidata-qid, 49 pro clubs) doesn't reach. Same spell shape (groundId/name/from/to); groundId is null whenever the ground could not be confidently matched to a row in grounds-be.json/ground-aliases.json/our own grounds table -- never guessed. Confidence 'confirmed' entries only (a second, independent source corroborates the move); 'partial'/'unconfirmed' research (e.g. K. Bocholter V.V.'s single-blog-sourced 1993 move) is deliberately left out.",
+  "clubs": [
+    {
+      "name": "KVV Hoeselt",
+      "aliases": ["KVV Hoeselt", "K.V.V. Hoeselt", "VV Hoeselt"],
+      "teamIds": ["rbfa-team-362584", "rbfa-team-362582"],
+      "stamnummer": null,
+      "spells": [
+        {
+          "groundId": null,
+          "name": "Caetsbeekstadion",
+          "from": null,
+          "to": "2025-09-12",
+          "sourceUrl": "https://www.vrt.be/vrtnws/nl/2025/09/12/hoeselt-sportpark-opening/"
+        },
+        {
+          "groundId": null,
+          "name": "Sportpark Hoeselt (Industrielaan 25b, Bilzen-Hoeselt)",
+          "from": "2025-09-13",
+          "to": null,
+          "sourceUrl": "https://www.vrt.be/vrtnws/nl/2025/09/12/hoeselt-sportpark-opening/"
+        }
+      ]
+    },
+    {
+      "name": "KFC Witgoor Sport Dessel",
+      "aliases": ["KFC Witgoor Sport Dessel", "Witgoor Sport Dessel", "KFC Witgoor Sport", "Witgoor Sport"],
+      "teamIds": [],
+      "stamnummer": null,
+      "spells": [
+        {
+          "groundId": null,
+          "name": "Stadion Jef Luyten",
+          "from": "1936-01-01",
+          "to": "2019-07-26",
+          "sourceUrl": "https://extremefootballtourism.blogspot.com/2019/10/belgium-kfc-witgoor-sport-dessel-b-1974.html"
+        },
+        {
+          "groundId": null,
+          "name": "Sportpark De Wouwer",
+          "from": "2019-07-26",
+          "to": null,
+          "sourceUrl": "https://www.rtv.be/kfc-witgoor-sport-start-seizoen-met-nieuw-stadion"
+        }
+      ]
+    },
+    {
+      "name": "Patro Eisden Maasmechelen",
+      "aliases": ["Patro Eisden Maasmechelen", "Patro Eisden", "K. Patro Eisden"],
+      "teamIds": [],
+      "stamnummer": null,
+      "spells": [
+        {
+          "groundId": null,
+          "name": "Stadion aan de Kastanjelaan",
+          "from": null,
+          "to": "2002-08-01",
+          "sourceUrl": "https://www.indehekken.net/patro-eisden-lommel-sk-tussen-nostalgie-en-nieuwe-ambities/"
+        },
+        {
+          "groundId": "osm-way-1448277696",
+          "name": "Gemeentelijk Sportparkstadion (Patrostadion)",
+          "from": "2002-08-01",
+          "to": null,
+          "sourceUrl": "https://www.indehekken.net/patro-eisden-lommel-sk-tussen-nostalgie-en-nieuwe-ambities/"
+        }
+      ]
+    },
+    {
+      "name": "KSK Tongeren",
+      "aliases": ["KSK Tongeren"],
+      "teamIds": [],
+      "stamnummer": null,
+      "spells": [
+        {
+          "groundId": null,
+          "name": "Stadion De Motten (Gesloopt)",
+          "from": null,
+          "to": "2005-06-30",
+          "sourceUrl": "https://en.wikipedia.org/wiki/K.S.K._Tongeren"
+        },
+        {
+          "groundId": "osm-way-167571173",
+          "name": "De Keiberg / SportOase Eburons Dome",
+          "from": "2006-01-01",
+          "to": null,
+          "sourceUrl": "https://en.wikipedia.org/wiki/K.S.K._Tongeren"
+        }
+      ]
+    },
+    {
+      "name": "K Vlijtingen Vlug en Vrij",
+      "aliases": ["K Vlijtingen Vlug en Vrij", "Vlijtingen Vlug en Vrij", "Vlijtingen VV", "K. Vlijtingen VV"],
+      "teamIds": ["rbfa-team-365676"],
+      "stamnummer": "5776",
+      "spells": [
+        {
+          "groundId": null,
+          "name": "Terrein in het gehucht Ellicht",
+          "from": "1954-01-01",
+          "to": "1964-01-01",
+          "sourceUrl": "https://nl.wikipedia.org/wiki/Vlijtingen_VV"
+        },
+        {
+          "groundId": null,
+          "name": "Terrein aan de Allewijweg (nu Allewijstraat)",
+          "from": "1964-01-01",
+          "to": null,
+          "sourceUrl": "https://nl.wikipedia.org/wiki/Vlijtingen_VV"
+        }
+      ]
+    }
+  ]
+}
