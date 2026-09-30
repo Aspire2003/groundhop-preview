@@ -5,19 +5,26 @@
   "clubs": [
     {
       "name": "KVV Hoeselt",
-      "aliases": ["KVV Hoeselt", "K.V.V. Hoeselt", "VV Hoeselt"],
-      "teamIds": ["rbfa-team-362584", "rbfa-team-362582"],
+      "aliases": [
+        "KVV Hoeselt",
+        "K.V.V. Hoeselt",
+        "VV Hoeselt"
+      ],
+      "teamIds": [
+        "rbfa-team-362584",
+        "rbfa-team-362582"
+      ],
       "stamnummer": null,
       "spells": [
         {
-          "groundId": null,
+          "groundId": "osm-way-106617915",
           "name": "Caetsbeekstadion",
           "from": null,
           "to": "2025-09-12",
           "sourceUrl": "https://www.vrt.be/vrtnws/nl/2025/09/12/hoeselt-sportpark-opening/"
         },
         {
-          "groundId": null,
+          "groundId": "club-k-v-v-hoeselt",
           "name": "Sportpark Hoeselt (Industrielaan 25b, Bilzen-Hoeselt)",
           "from": "2025-09-13",
           "to": null,
@@ -27,7 +34,12 @@
     },
     {
       "name": "KFC Witgoor Sport Dessel",
-      "aliases": ["KFC Witgoor Sport Dessel", "Witgoor Sport Dessel", "KFC Witgoor Sport", "Witgoor Sport"],
+      "aliases": [
+        "KFC Witgoor Sport Dessel",
+        "Witgoor Sport Dessel",
+        "KFC Witgoor Sport",
+        "Witgoor Sport"
+      ],
       "teamIds": [],
       "stamnummer": null,
       "spells": [
@@ -49,7 +61,11 @@
     },
     {
       "name": "Patro Eisden Maasmechelen",
-      "aliases": ["Patro Eisden Maasmechelen", "Patro Eisden", "K. Patro Eisden"],
+      "aliases": [
+        "Patro Eisden Maasmechelen",
+        "Patro Eisden",
+        "K. Patro Eisden"
+      ],
       "teamIds": [],
       "stamnummer": null,
       "spells": [
@@ -71,7 +87,9 @@
     },
     {
       "name": "KSK Tongeren",
-      "aliases": ["KSK Tongeren"],
+      "aliases": [
+        "KSK Tongeren"
+      ],
       "teamIds": [],
       "stamnummer": null,
       "spells": [
@@ -93,8 +111,15 @@
     },
     {
       "name": "K Vlijtingen Vlug en Vrij",
-      "aliases": ["K Vlijtingen Vlug en Vrij", "Vlijtingen Vlug en Vrij", "Vlijtingen VV", "K. Vlijtingen VV"],
-      "teamIds": ["rbfa-team-365676"],
+      "aliases": [
+        "K Vlijtingen Vlug en Vrij",
+        "Vlijtingen Vlug en Vrij",
+        "Vlijtingen VV",
+        "K. Vlijtingen VV"
+      ],
+      "teamIds": [
+        "rbfa-team-365676"
+      ],
       "stamnummer": "5776",
       "spells": [
         {
