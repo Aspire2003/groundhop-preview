@@ -235,7 +235,7 @@
   // and revert act on every row of that mapping at once; the database's own vote trigger keeps a
   // revert in place when more votes arrive later.
 
-  var MAPPING_KIND_LABEL = { ground_alias: 'Stadionnaam', new_ground: 'Nieuw stadion', club_alias: 'Clubnaam', score: 'Uitslag', match_ground: 'Stadion van een wedstrijd' };
+  var MAPPING_KIND_LABEL = { ground_alias: 'Stadionnaam', new_ground: 'Nieuw stadion', club_alias: 'Clubnaam', score: 'Uitslag', match_ground: 'Stadion van een wedstrijd', site_location: 'Veld vastgelegd (GPS)' };
   var MAPPING_STATUS_LABEL = { pending: 'Wacht', approved: 'Goedgekeurd', reverted: 'Teruggedraaid' };
   var APPROVED_BY_LABEL = { votes: '3 toestellen', admin: 'jij', agent: 'ground-finder' };
   var allMappings = [];
@@ -257,6 +257,8 @@
         return (v.from || '?') + ' → ' + (m.target_id || '');
       case 'new_ground':
         return [v.name, v.kind, v.address, v.city, v.country].filter(Boolean).join(' · ');
+      case 'site_location':
+        return [v.name, typeof v.accuracy_m === 'number' ? 'GPS ±' + Math.round(v.accuracy_m) + ' m' : null].filter(Boolean).join(' · ');
       default:
         return m.target_id || m.target_key;
     }
@@ -272,7 +274,8 @@
   function buildMappingGroups(rows) {
     var byKey = {};
     rows.forEach(function (r) {
-      var k = r.kind + '|' + r.key_norm + '|' + r.target_key;
+      // every phone sends its own point for a site, so each report is its own card (approve or reject one point)
+      var k = r.kind + '|' + r.key_norm + '|' + (r.kind === 'site_location' ? r.id : r.target_key);
       (byKey[k] = byKey[k] || []).push(r);
     });
     return Object.keys(byKey).map(function (k) {
@@ -304,7 +307,7 @@
 
   function mappingCard(g) {
     var m = g.sample;
-    var who = g.status === 'approved' ? 'goedgekeurd door ' + (APPROVED_BY_LABEL[g.approvedBy] || g.approvedBy || '?')
+    var who = g.status === 'approved' ? 'goedgekeurd door ' + (m.kind === 'site_location' && g.approvedBy === 'votes' ? '2 toestellen die overeenkomen (gemiddelde)' : APPROVED_BY_LABEL[g.approvedBy] || g.approvedBy || '?')
       : g.devices === 0 ? 'van de ground-finder'
       : g.devices + (g.devices === 1 ? ' toestel' : ' toestellen');
     var osm = /^osm-(node|way|relation)-(\d+)$/.exec(m.target_id || '');
@@ -312,7 +315,7 @@
       ? '<div class="field muted">Ground-finder · zekerheid ' + esc(m.confidence == null ? '?' : Math.round(m.confidence * 100) + '%') +
         (m.source_url ? ' · <a href="' + esc(m.source_url) + '" target="_blank" rel="noopener noreferrer">bron</a>' : '') + '</div>'
       : '';
-    var coords = m.kind === 'new_ground' && m.value && typeof m.value.lat === 'number'
+    var coords = (m.kind === 'new_ground' || m.kind === 'site_location') && m.value && typeof m.value.lat === 'number'
       ? '<div class="field muted"><a href="https://www.openstreetmap.org/?mlat=' + m.value.lat + '&mlon=' + m.value.lon + '#map=17/' + m.value.lat + '/' + m.value.lon + '" target="_blank" rel="noopener noreferrer">' + m.value.lat.toFixed(5) + ', ' + m.value.lon.toFixed(5) + '</a></div>'
       : '';
     var note = g.members.map(function (r) { return r.admin_note; }).filter(Boolean)[0];
@@ -366,7 +369,9 @@
       : { status: 'reverted', approved_by: null, approved_at: null };
     var msg = btn.parentNode.querySelector('[data-mapping-msg]');
     btn.disabled = true;
-    var { error } = await sb.from('learned_mappings').update(patch).eq('kind', m.kind).eq('key_norm', m.key_norm).eq('target_key', m.target_key);
+    var q = sb.from('learned_mappings').update(patch).eq('kind', m.kind).eq('key_norm', m.key_norm);
+    // a site location is one phone's point: only that report changes, never the other phones' points
+    var { error } = await (m.kind === 'site_location' ? q.eq('id', m.id) : q.eq('target_key', m.target_key));
     btn.disabled = false;
     if (error) {
       msg.textContent = 'Opslaan mislukt.';
