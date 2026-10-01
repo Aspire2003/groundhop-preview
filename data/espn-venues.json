@@ -2005,6 +2005,12 @@
    "venue": "Ennio Tardini",
    "ground": "Stadio Ennio Tardini"
   },
+  "10549": {
+   "groundId": "osm-way-268957094",
+   "how": "name",
+   "venue": "Euroborg",
+   "ground": "Euroborg"
+  },
   "10552": {
    "groundId": "osm-way-499335246",
    "how": "name",
