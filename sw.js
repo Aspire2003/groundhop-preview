@@ -1,14 +1,14 @@
 // Groundhop web app: works in the stadium without signal. The page itself is fetched fresh when
 // online (so a new version shows up) and falls back to the cached copy offline. The bundle (hashed
-// names) and fonts are cached on first use. 20261001191417 is replaced at build time.
-const CACHE = 'groundhop-20261001191417';
+// names) and fonts are cached on first use. 20261001202250 is replaced at build time.
+const CACHE = 'groundhop-20261001202250';
 // Match data files whose URL names their content (data/<name>.json?v=<hash>, src/data/files.web.ts):
 // the same URL is always the same bytes, so they are served straight from here without asking the
 // network, and kept across deploys -- a new build only downloads the files that really changed.
 // Not versioned by build (not "groundhop-..."), so activate below leaves it alone.
 const DATA_CACHE = 'gh-data-v1';
 // Every screen's code chunk, filled in at build time, so a screen never opened before still opens offline.
-const CHUNKS = ["./_expo/static/js/web/+not-found-1be05847acab481409e6f21d0ef9260f.js","./_expo/static/js/web/[doc]-1644c3e978718494fd5f4e2bb01604b5.js","./_expo/static/js/web/[id]-15f9c5883e61d2990294ffc892db1ee2.js","./_expo/static/js/web/[id]-20f6b96d5d8712a2cf3ea051185aa3a8.js","./_expo/static/js/web/[id]-29c304ee7e2c74090cce8ba38e1ba6d7.js","./_expo/static/js/web/[id]-827919dd8635636c6422e5b075208186.js","./_expo/static/js/web/[id]-a7560a3ab7692de6c2dfcf0f659d32b8.js","./_expo/static/js/web/[id]-da5cae411a43602b1581d537110de8ea.js","./_expo/static/js/web/[id]-fb345d3282dfde017bf904c197045225.js","./_expo/static/js/web/__common-812cc80c5460003cbe2ab9a963d26292.js","./_expo/static/js/web/__expo-metro-runtime-ed4c1cfa6193d76fc294130e42bd1916.js","./_expo/static/js/web/_layout-3c8510f29bf3cb25e049dc83cb79214d.js","./_expo/static/js/web/_layout-92da83091d96c49a676560ce1dcecd7d.js","./_expo/static/js/web/account-794115c103c19ce958193fa9e0036330.js","./_expo/static/js/web/account-forgot-6b4f7936f1866f85b01f06336fbc7340.js","./_expo/static/js/web/account-signin-e326d41d2cb9b49862ed46881316f480.js","./_expo/static/js/web/add-chooser-17af94865666d19c99979654899e2a77.js","./_expo/static/js/web/checkin-ba5b5555e85e3b73435ef5cca1e1b977.js","./_expo/static/js/web/club-pick-3773ef4c23963d70efa7264aeee0483a.js","./_expo/static/js/web/compare-bce4aa07b7bd3a6dd6caf1dbf598008a.js","./_expo/static/js/web/competitions-pick-d856a0d90da6799243dabf0a0f0c596b.js","./_expo/static/js/web/correct-ticket-dbc2646246d80cc8c9e3d3533634174a.js","./_expo/static/js/web/doubleheader-c5fec585092ee492f7e096e6d5824dd9.js","./_expo/static/js/web/entry-0bfa03b5c424278527b875b7211ce310.js","./_expo/static/js/web/grounds-11592a2d19404d3ed2e51fb1e6c95763.js","./_expo/static/js/web/help-f2d78260caa75659bbd7873ef8473ce2.js","./_expo/static/js/web/import-58f14c5d68672dc51f6ebf8e9a621462.js","./_expo/static/js/web/index-cac2aadddc5c79deb402e2e74683ceea.js","./_expo/static/js/web/live-f09044c19e42911fd06f1c74870e6184.js","./_expo/static/js/web/map-1278657e84964d29c7612ff8b9b44a7a.js","./_expo/static/js/web/map-6eae0cf880d0632c5f04a491961af5d2.js","./_expo/static/js/web/match-add-1bc69eff699631cbcd6ee965b9a95bd0.js","./_expo/static/js/web/matchday-more-f43c7c1f6a77ae342a22e883723d5094.js","./_expo/static/js/web/my-xi-219df05354fc03894d13e29c03943454.js","./_expo/static/js/web/on-this-day-422b5cfcd0a06c9421fd2e6078d7b4c6.js","./_expo/static/js/web/passport-db53ebccf9cb4c808f349b99a4126d89.js","./_expo/static/js/web/photos-689dfdccbc4eadc5261e9d87cc98b169.js","./_expo/static/js/web/planner-4f2b599b7a3a5311b9b60689329f59a2.js","./_expo/static/js/web/puzzle-979bc8f723324e37f75520afedafb332.js","./_expo/static/js/web/search-bbd1faeee78927f873601f7eff11729a.js","./_expo/static/js/web/season-add-634384d091f9d9ac03fb3853ed939810.js","./_expo/static/js/web/settings-563dbcd1c64602eb836152ffa8591727.js","./_expo/static/js/web/share-ticket-097cb85985ab43ce70b1ea9045b8c3e3.js","./_expo/static/js/web/shirt-add-fa10df84427ac88ec892add2019f7c48.js","./_expo/static/js/web/shirts-ce88175402bcc9da5e6f7df74fbb5d57.js","./_expo/static/js/web/sources-e040180851743b5f01b72c3a6c88f99f.js","./_expo/static/js/web/tickets-ac38d7968276deec2d8c7e9d33dbf89f.js","./_expo/static/js/web/tour-add-7342786395738a582be3e258a174eb56.js","./_expo/static/js/web/trip-results-02f0894a16c99f726711d5233dcf7e02.js","./_expo/static/js/web/trips-f20635249ab4b0c117eaf58f755be8dc.js","./_expo/static/js/web/trophies-0c6cde994b0c96effe0fb5da857d2fdd.js","./_expo/static/js/web/visit-add-05a0a3b1974a7726a189f821aab4f6d0.js","./_expo/static/js/web/visit-notes-3c3b1395244a744231eac4e11c81ae48.js","./_expo/static/js/web/welcome-07dc79e17576366ad563ac0de41d8008.js","./_expo/static/js/web/wrapped-b8279e7788dd2c6fc553ca7a78522654.js","./_expo/static/js/web/you-6f91d9ad3ac31c0639eabc319071f92d.js","./sql-wasm-aa0b42c828ef.wasm"];
+const CHUNKS = ["./_expo/static/js/web/+not-found-1be05847acab481409e6f21d0ef9260f.js","./_expo/static/js/web/[doc]-dbf9043643bf6106c793407db2377886.js","./_expo/static/js/web/[id]-083b163cf4e4438edb697b1456425195.js","./_expo/static/js/web/[id]-2e538e1d3097ca35ad9711d9aacbe687.js","./_expo/static/js/web/[id]-60ef82946134825c2fae79351abcbbe9.js","./_expo/static/js/web/[id]-6b0e8d02516360903ced1ad5d70e9ff8.js","./_expo/static/js/web/[id]-90098eb6f9b4bb225cd52dab7a6de53e.js","./_expo/static/js/web/[id]-ebdfd9621e96cf50c7806feae9d187cc.js","./_expo/static/js/web/[id]-ede00cd5db42bd82473c9e92e3e60fc6.js","./_expo/static/js/web/__common-1ff3413e79d0f2b596b8d815cecd8ac1.js","./_expo/static/js/web/__expo-metro-runtime-ed4c1cfa6193d76fc294130e42bd1916.js","./_expo/static/js/web/_layout-288ab77618b230cf2911a7584a4e2ddf.js","./_expo/static/js/web/_layout-92da83091d96c49a676560ce1dcecd7d.js","./_expo/static/js/web/account-79be1ff079db1b3592f8565ed0a0cdb9.js","./_expo/static/js/web/account-forgot-eabfcfb201d6449937255fe34a6716b1.js","./_expo/static/js/web/account-signin-2d648d51b5f4ad570f020716206089d6.js","./_expo/static/js/web/add-chooser-86f26ec8a2669b5babbe380cdc847bd5.js","./_expo/static/js/web/checkin-3f286398e229b849f7893959fbf208f0.js","./_expo/static/js/web/club-pick-d13341e9757567cc3d5ec074cee8e78d.js","./_expo/static/js/web/compare-ca4bd359fbabf6192d0d26c34598719b.js","./_expo/static/js/web/competitions-pick-7eae4c3958825b5813980e168f27f8dd.js","./_expo/static/js/web/correct-ticket-c79c7e522229f1d82f6d44a8e85cad27.js","./_expo/static/js/web/doubleheader-1c01a4d6b592ca7925db5385f85d1ed1.js","./_expo/static/js/web/entry-db9d41874783b15c050dc938e61ce499.js","./_expo/static/js/web/grounds-11592a2d19404d3ed2e51fb1e6c95763.js","./_expo/static/js/web/help-0e90f2345e3e5d29c1bcf69c3b8be7b9.js","./_expo/static/js/web/import-db9a7e9aa0fba2e20105cb73f0b52251.js","./_expo/static/js/web/index-cac2aadddc5c79deb402e2e74683ceea.js","./_expo/static/js/web/live-b4796d982d06aac9d92601cb72191ce1.js","./_expo/static/js/web/map-0b58971c754a87b78df25d16a7b5c6bf.js","./_expo/static/js/web/map-fdb95db42f4eb1ce4891a4c0d56c058f.js","./_expo/static/js/web/match-add-bbed9ac245220b7f6d4d9b5097772c8d.js","./_expo/static/js/web/matchday-more-10fe2923a16c781a0ade1e3533a88538.js","./_expo/static/js/web/my-xi-c3d0a67ad18e58fb337138276d315462.js","./_expo/static/js/web/on-this-day-3ae6c1c2c2ec087a33db966b6a7e8edc.js","./_expo/static/js/web/passport-1f58f8e1cb363de4ceb278cab68763e9.js","./_expo/static/js/web/photos-c68db06fa282bacaf7b6726066336bcd.js","./_expo/static/js/web/planner-7074feeedaa71f9042005b2e49d4ae4a.js","./_expo/static/js/web/puzzle-ecba7bc628c185dc84d1632faaa31224.js","./_expo/static/js/web/search-5ef73e1ad177fca072d9fab0c121090c.js","./_expo/static/js/web/season-add-ef691e3f0d4b5011dd8ae5d873749235.js","./_expo/static/js/web/settings-71203d8e8b253f87285453756772205c.js","./_expo/static/js/web/share-ticket-256fca395f7f3fe3beda8c60a2c91562.js","./_expo/static/js/web/shirt-add-b9ac7b69fec3b886be1c8c39ad7a9d46.js","./_expo/static/js/web/shirts-ae68094b3a5e744804a8724264a09bba.js","./_expo/static/js/web/sources-585247d196ee313b5ef289dc680bd6e6.js","./_expo/static/js/web/tickets-ac38d7968276deec2d8c7e9d33dbf89f.js","./_expo/static/js/web/tour-add-acc75b13f144fe6d2b113239b5123a78.js","./_expo/static/js/web/trip-results-3a9f00642a2412d4d4c55d994b187069.js","./_expo/static/js/web/trips-a85d95784090a94a6b96cc927709503e.js","./_expo/static/js/web/trophies-f7a30e48798b1a9db31f45c40f2e4897.js","./_expo/static/js/web/visit-add-54e8c36f9b8b699c6573aa6731e16908.js","./_expo/static/js/web/visit-notes-3e037bd3ffe104ec0312cf2608b6042a.js","./_expo/static/js/web/welcome-9932e1c72edfc1780ed40da49cdb4885.js","./_expo/static/js/web/wrapped-0eb5474325c454a1f649aedf22ee9017.js","./_expo/static/js/web/you-6f91d9ad3ac31c0639eabc319071f92d.js","./sql-wasm-aa0b42c828ef.wasm"];
 // The versioned data files the first screen needs (filled in at build time): kept at install, so the
 // next start reads them from here. The page usually fetched them moments ago, so this is mostly the
 // browser's HTTP cache answering. Best-effort: a file that fails is simply fetched on first use.
@@ -120,5 +120,48 @@ self.addEventListener('fetch', (event) => {
           return res;
         }),
     ),
+  );
+});
+
+// "Op deze dag" web push (server/push-cron/ sends it at 9:00 local time on a day with a memory):
+// the payload is { title, body, ticketId }. A push must always show a notification, so an unreadable
+// payload still shows the plain title. The tag makes a second one the same day replace the first.
+self.addEventListener('push', (event) => {
+  let payload = {};
+  try {
+    payload = event.data ? event.data.json() : {};
+  } catch {
+    payload = {};
+  }
+  const title = typeof payload.title === 'string' && payload.title ? payload.title : 'Op deze dag';
+  const body = typeof payload.body === 'string' ? payload.body : '';
+  const ticketId = typeof payload.ticketId === 'string' ? payload.ticketId : '';
+  event.waitUntil(
+    self.registration.showNotification(title, {
+      body,
+      icon: new URL('icon-192.png', self.registration.scope).href,
+      badge: new URL('icon-192.png', self.registration.scope).href,
+      tag: 'on-this-day',
+      data: { ticketId },
+    }),
+  );
+});
+
+// Tapping it opens that memory (/on-this-day?id=<ticketId>) in the open app, or a new window.
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const ticketId = event.notification.data && event.notification.data.ticketId;
+  const url = new URL('on-this-day' + (ticketId ? '?id=' + encodeURIComponent(ticketId) : ''), self.registration.scope).href;
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((list) => {
+      const own = list.find((c) => new URL(c.url).origin === self.location.origin);
+      if (own) {
+        return own
+          .navigate(url)
+          .then((c) => (c || own).focus())
+          .catch(() => self.clients.openWindow(url));
+      }
+      return self.clients.openWindow(url);
+    }),
   );
 });
