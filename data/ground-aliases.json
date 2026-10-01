@@ -254,6 +254,13 @@
       "name": "Sportpark Dijkpolder",
       "city": "Maassluis",
       "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (29 Sep 2026): kept so text that names the ground this way still finds it."
+    },
+    {
+      "alias": "asv geel",
+      "groundId": "osm-way-111607406",
+      "name": "De Leunen",
+      "city": "Geel",
+      "source": "OSM name before the display rename in scripts/data/ground-name-overrides.json (1 Oct 2026): De Leunen (Leunenstadion), Rauwelkoven 43, Geel is the stadium of ASV Geel, home of Jong Genk since 2023/24 (VRT, 4 Apr 2023). Kept so text that names the ground this way still finds it."
     }
   ]
 }

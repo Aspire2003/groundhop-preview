@@ -1,4 +1,11 @@
 {
+ "club-r-s-c-anderlecht": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Burgemeester_Van_de_Wielestadion_-_zittribune_-_Deinze_%281%29.jpg/960px-Burgemeester_Van_de_Wielestadion_-_zittribune_-_Deinze_%281%29.jpg",
+  "author": "Spotter2",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Burgemeester_Van_de_Wielestadion_-_zittribune_-_Deinze_(1).jpg"
+ },
  "osm-node-11962401363": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Stade_de_l%27Aube.jpg/960px-Stade_de_l%27Aube.jpg",
   "author": "TaraO",
@@ -14,6 +21,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
   "page": "https://commons.wikimedia.org/wiki/File:%C3%85r%C3%A5sen.jpg",
   "qid": "Q271212"
+ },
+ "osm-node-1643540965": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Dender_-_Patro_1-1_16-3-2013_20-53-42.JPG/960px-Dender_-_Patro_1-1_16-3-2013_20-53-42.JPG",
+  "author": "Paul Hermans",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dender_-_Patro_1-1_16-3-2013_20-53-42.JPG"
  },
  "osm-node-267551453": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Moselstadium_Trier_01.jpg/960px-Moselstadium_Trier_01.jpg",
@@ -73,7 +87,7 @@
  },
  "osm-relation-1368410": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Cristal_Arena_2013-02-21_opposite_stand.jpg/960px-Cristal_Arena_2013-02-21_opposite_stand.jpg",
-  "author": "No machine-readable author provided. Hobby-Fotograf2013 assumed (based on copyright claims).",
+  "author": "Hobby-Fotograf2013",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Cristal_Arena_2013-02-21_opposite_stand.jpg",
@@ -113,7 +127,7 @@
  },
  "osm-relation-1626818": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Pagkritio.jpg/960px-Pagkritio.jpg",
-  "author": "The original uploader was Exogiinos at Greek Wikipedia .. Original file is/was here",
+  "author": "Exogiinos (Griekse Wikipedia)",
   "license": "Public domain",
   "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pagkritio.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Pagkritio.jpg",
@@ -216,19 +230,19 @@
   "qid": "Q696491"
  },
  "osm-relation-3300466": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_Louwers_Stadion.JPG/960px-Jan_Louwers_Stadion.JPG",
-  "author": "Mark92 at Dutch Wikipedia",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "page": "https://commons.wikimedia.org/wiki/File:Jan_Louwers_Stadion.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jan_Louwers_Stadion_1.jpg/960px-Jan_Louwers_Stadion_1.jpg",
+  "author": "Tb1994",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jan_Louwers_Stadion_1.jpg",
   "qid": "Q643426"
  },
  "osm-relation-3300749": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Gent_Ghelamco_Arena_panorama.jpg/960px-Gent_Ghelamco_Arena_panorama.jpg",
-  "author": "Paul Hermans",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Gent_Ghelamco_Arena_panorama.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Planet_Group_arena_-_aerial_night_view.jpg/960px-Planet_Group_arena_-_aerial_night_view.jpg",
+  "author": "Cvanuffel",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Planet_Group_arena_-_aerial_night_view.jpg",
   "qid": "Q1708705"
  },
  "osm-relation-3574462": {
@@ -335,6 +349,14 @@
   "page": "https://commons.wikimedia.org/wiki/File:Achter_De_Kazerne_Oud.jpg",
   "qid": "Q649755"
  },
+ "osm-way-1036395597": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tribune_3_KAS_Eupen.jpg/960px-Tribune_3_KAS_Eupen.jpg",
+  "author": "Willem Nicolas",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Tribune_3_KAS_Eupen.jpg",
+  "qid": "Q469079"
+ },
  "osm-way-10508355": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Beveren.jpg/960px-Beveren.jpg",
   "author": "Ericwiki01",
@@ -368,11 +390,11 @@
   "qid": "Q917727"
  },
  "osm-way-1061436098": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Stadion_De_Toekomst_-_Bob_Haarmstribune.jpg/960px-Stadion_De_Toekomst_-_Bob_Haarmstribune.jpg",
-  "author": "Joris van Rooden",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/BobHaar-tribune-SDT-20180912_182718034_HDR.jpg/960px-BobHaar-tribune-SDT-20180912_182718034_HDR.jpg",
+  "author": "Edoderoo",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Stadion_De_Toekomst_-_Bob_Haarmstribune.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BobHaar-tribune-SDT-20180912_182718034_HDR.jpg",
   "qid": "Q2200744"
  },
  "osm-way-106578003": {
@@ -543,6 +565,14 @@
   "page": "https://commons.wikimedia.org/wiki/File:Molineux_Ground,_Wolverhampton.jpg",
   "qid": "Q380823"
  },
+ "osm-way-1256567898": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Stade_communal_de_Tivoli.jpg/960px-Stade_communal_de_Tivoli.jpg",
+  "author": "KSKB1935",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stade_communal_de_Tivoli.jpg",
+  "qid": "Q3496100"
+ },
  "osm-way-1265922627": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Campo_estrela_2022.jpg/960px-Campo_estrela_2022.jpg",
   "author": "Lusitanist1911",
@@ -558,6 +588,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Celtic_park_2.jpg",
   "qid": "Q216037"
+ },
+ "osm-way-1299385724": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Stade_de_Rocourt_03.jpg/960px-Stade_de_Rocourt_03.jpg",
+  "author": "CrucialFriend",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Stade_de_Rocourt_03.jpg",
+  "qid": "Q20751559"
  },
  "osm-way-130575966": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Erdgas_Sportpark_20180407_03.jpg/960px-Erdgas_Sportpark_20180407_03.jpg",
@@ -616,11 +654,11 @@
   "qid": "Q5402128"
  },
  "osm-way-1364600319": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/GS_Staalwerken_Stadion.jpg/960px-GS_Staalwerken_Stadion.jpg",
-  "author": "Vosarjen",
-  "license": "CC BY 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:GS_Staalwerken_Stadion.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/MySteel_Stadion_Overdag.jpg/960px-MySteel_Stadion_Overdag.jpg",
+  "author": "RHMR1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:MySteel_Stadion_Overdag.jpg",
   "qid": "Q132997935"
  },
  "osm-way-1367633428": {
@@ -680,11 +718,11 @@
   "qid": "Q152599"
  },
  "osm-way-1448277696": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Patro_Eisden_Maasmechelen_18-06-2018_13-10-37.jpg/960px-Patro_Eisden_Maasmechelen_18-06-2018_13-10-37.jpg",
-  "author": "Paul Hermans",
-  "license": "CC BY-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Patro_Eisden_Maasmechelen_18-06-2018_13-10-37.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Beveren-Patro_Eisden%2C_25_Oct_2025-01.jpg/960px-Beveren-Patro_Eisden%2C_25_Oct_2025-01.jpg",
+  "author": "Haggis MacHaggis",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Beveren-Patro_Eisden,_25_Oct_2025-01.jpg",
   "qid": "Q109045011"
  },
  "osm-way-1450885233": {
@@ -785,7 +823,7 @@
  },
  "osm-way-15807803": {
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Priestfield_Stadium_Medway_Stand.jpg",
-  "author": "The original uploader was ChrisTheDude at English Wikipedia . This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/2.0 CC BY-SA 2.0 Creative Commons Attribution-Share Alike 2.0 true true .mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important} This work is free and may be used by anyone for any purpose. If you wish to use this content , you do not need to request permission as long as you follow any licensing requirements mentioned on this page. The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been reviewed by a Volunteer Response Team (VRT) member and stored in our permission archive . The correspondence is available to trusted volunteers as ticket #2010020410030384 . If you have questions about the archived correspondence, please use the VRT noticeboard . Ticket link: https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2010020410030384 Find other files from the same ticket:",
+  "author": "ChrisTheDude (Engelse Wikipedia)",
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Priestfield_Stadium_Medway_Stand.jpg",
@@ -881,7 +919,7 @@
  },
  "osm-way-181330349": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Est%C3%A1dio_Municipal_de_Albufeira_17_April_2015_%282%29.JPG/960px-Est%C3%A1dio_Municipal_de_Albufeira_17_April_2015_%282%29.JPG",
-  "author": "Kolforn ( Kolforn ) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope. This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true",
+  "author": "Kolforn",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Municipal_de_Albufeira_17_April_2015_(2).JPG",
@@ -904,11 +942,11 @@
   "qid": "Q2586520"
  },
  "osm-way-184958291": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Panoramio_-_V%26A_Dudush_-_Jan_Breydel_Stadion.jpg/960px-Panoramio_-_V%26A_Dudush_-_Jan_Breydel_Stadion.jpg",
-  "author": "V&A Dudush",
-  "license": "CC BY 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_Jan_Breydel_Stadion.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/FC_Br%C3%BCgge_Choreografie_2011.JPG/960px-FC_Br%C3%BCgge_Choreografie_2011.JPG",
+  "author": "Chivista",
+  "license": "CC BY-SA 3.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:FC_Br%C3%BCgge_Choreografie_2011.JPG",
   "qid": "Q1070150"
  },
  "osm-way-184960106": {
@@ -1000,12 +1038,20 @@
   "qid": "Q2298643"
  },
  "osm-way-19881744": {
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/20110720_bosuil.jpg",
-  "author": "Martijn Mureau",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:20110720_bosuil.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Bosuil_after_renovation_%282017-2020%29.jpg/960px-Bosuil_after_renovation_%282017-2020%29.jpg",
+  "author": "LemmyButler",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bosuil_after_renovation_(2017-2020).jpg",
   "qid": "Q285074"
+ },
+ "osm-way-200860052": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/EdyC8n1XkAUgiKU.jpg/960px-EdyC8n1XkAUgiKU.jpg",
+  "author": "EliasRom2005",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:EdyC8n1XkAUgiKU.jpg",
+  "qid": "Q97686604"
  },
  "osm-way-201384256": {
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Btd_viking_stadion_lr.jpg",
@@ -1030,6 +1076,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "page": "https://commons.wikimedia.org/wiki/File:GSP_Stadium_in_Nicosia_(Omonoia_-_Manchester_City).jpg",
   "qid": "Q592491"
+ },
+ "osm-way-201817141": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stade_Yvan_Georges.jpg/960px-Stade_Yvan_Georges.jpg",
+  "author": "Gruesome Gary",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stade_Yvan_Georges.jpg",
+  "qid": "Q3495908"
  },
  "osm-way-202305268": {
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gresty_Road%2C_Crewe.jpg",
@@ -1057,7 +1111,7 @@
  },
  "osm-way-211693383": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Est%C3%A1dio_do_Vit%C3%B3ria_de_Guimar%C3%A3es_visto_da_torre_central_do_Castelo_de_Guimar%C3%A3es_03.JPG/960px-Est%C3%A1dio_do_Vit%C3%B3ria_de_Guimar%C3%A3es_visto_da_torre_central_do_Castelo_de_Guimar%C3%A3es_03.JPG",
-  "author": "Estádio_do_Vitória_de_Guimarães_visto_da_torre_central_do_Castelo_de_Guimarães_02.jpg : Wagner Bonifacio Leite",
+  "author": "Wagner Bonifacio Leite",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Vit%C3%B3ria_de_Guimar%C3%A3es_visto_da_torre_central_do_Castelo_de_Guimar%C3%A3es_03.JPG",
@@ -1136,11 +1190,11 @@
   "qid": "Q3495731"
  },
  "osm-way-23048132": {
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lierse_lisp_-_tribune_II_oud.png",
-  "author": "Mario Wuyts",
-  "license": "CC BY-SA 3.0 nl",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
-  "page": "https://commons.wikimedia.org/wiki/File:Lierse_lisp_-_tribune_II_oud.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%27t_Lisp.jpg/960px-%27t_Lisp.jpg",
+  "author": "Kobe Crollet",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%27t_Lisp.jpg",
   "qid": "Q1610381"
  },
  "osm-way-23049323": {
@@ -1248,11 +1302,11 @@
   "qid": "Q1409157"
  },
  "osm-way-241845074": {
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Constant_Vanden_Stockstadion%2C_Anderlecht.jpg",
-  "author": "Dirk Grosemans at Dutch Wikipedia ( Original text: dirk grosemans )",
-  "license": "Public domain",
-  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Constant_Vanden_Stockstadion,_Anderlecht.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Constant_Vanden_Stockstadion,_Anderlecht.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Lotto_park_2022.jpg/960px-Lotto_park_2022.jpg",
+  "author": "Lotto park immage",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lotto_park_2022.jpg",
   "qid": "Q262326"
  },
  "osm-way-242234184": {
@@ -1360,11 +1414,11 @@
   "qid": "Q1675996"
  },
  "osm-way-261379094": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/De_Vijverberg.JPG/960px-De_Vijverberg.JPG",
-  "author": "User:Switchblade",
-  "license": "Public domain",
-  "licenseUrl": "https://commons.wikimedia.org/wiki/File:De_Vijverberg.JPG",
-  "page": "https://commons.wikimedia.org/wiki/File:De_Vijverberg.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/De_Vijverberg_2017.jpg/960px-De_Vijverberg_2017.jpg",
+  "author": "Arnhemcity12",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:De_Vijverberg_2017.jpg",
   "qid": "Q606265"
  },
  "osm-way-26173526": {
@@ -1409,7 +1463,7 @@
  },
  "osm-way-266223964": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mpicotnancy.jpg/960px-Mpicotnancy.jpg",
-  "author": "No machine-readable author provided. Ske assumed (based on copyright claims).",
+  "author": "Ske",
   "license": "Public domain",
   "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mpicotnancy.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Mpicotnancy.jpg",
@@ -1480,11 +1534,11 @@
   "qid": "Q31678"
  },
  "osm-way-270383267": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Philips_Stadion.jpg/960px-Philips_Stadion.jpg",
-  "author": "TaraO",
-  "license": "CC BY 2.5",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-  "page": "https://commons.wikimedia.org/wiki/File:Philips_Stadion.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Philips_Stadion%27da_PSV-Bod%C3%B8-Glimt_aras%C4%B1ndaki_UEFA_Avrupa_Kupas%C4%B1_m%C3%BCsabakas%C4%B1%2C_08.09.2022.jpg/960px-Philips_Stadion%27da_PSV-Bod%C3%B8-Glimt_aras%C4%B1ndaki_UEFA_Avrupa_Kupas%C4%B1_m%C3%BCsabakas%C4%B1%2C_08.09.2022.jpg",
+  "author": "Alicembasli",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Philips_Stadion%27da_PSV-Bod%C3%B8-Glimt_aras%C4%B1ndaki_UEFA_Avrupa_Kupas%C4%B1_m%C3%BCsabakas%C4%B1,_08.09.2022.jpg",
   "qid": "Q500972"
  },
  "osm-way-27197903": {
@@ -1520,11 +1574,11 @@
   "qid": "Q619071"
  },
  "osm-way-275123728": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SpartaKasteel.jpg/960px-SpartaKasteel.jpg",
-  "author": "Hanhil at Dutch Wikipedia",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "page": "https://commons.wikimedia.org/wiki/File:SpartaKasteel.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sparta_stadion%2C_Spangen%2C_Rotterdam_%282020%29_01.jpg/960px-Sparta_stadion%2C_Spangen%2C_Rotterdam_%282020%29_01.jpg",
+  "author": "Donald Trung Quoc Don",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sparta_stadion,_Spangen,_Rotterdam_(2020)_01.jpg",
   "qid": "Q668094"
  },
  "osm-way-27581749": {
@@ -1552,11 +1606,11 @@
   "qid": "Q3967924"
  },
  "osm-way-276470526": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Maastricht_Stadion_De_Geusselt.jpg/960px-Maastricht_Stadion_De_Geusselt.jpg",
-  "author": "A.Savin",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Maastricht_Stadion_De_Geusselt.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Maastricht-De_Geusselt_%281%29.jpg/960px-Maastricht-De_Geusselt_%281%29.jpg",
+  "author": "Romaine",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Maastricht-De_Geusselt_(1).jpg",
   "qid": "Q391473"
  },
  "osm-way-27816189": {
@@ -1614,6 +1668,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_Estadio_do_Restelo_Belem_September_2013_aerial_view.jpg",
   "qid": "Q1370811"
+ },
+ "osm-way-284307211": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/PEC_Zwolle_2022.jpg/960px-PEC_Zwolle_2022.jpg",
+  "author": "UserBWA",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:PEC_Zwolle_2022.jpg",
+  "qid": "Q1141104"
  },
  "osm-way-28489919": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Stadion_Magdeburg_Luftbild.JPG/960px-Stadion_Magdeburg_Luftbild.JPG",
@@ -1721,7 +1783,7 @@
  },
  "osm-way-30375424": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Stade_Sochaux_Bonale_2.jpg/960px-Stade_Sochaux_Bonale_2.jpg",
-  "author": "No machine-readable author provided. Arnaud 25 assumed (based on copyright claims).",
+  "author": "Arnaud 25",
   "license": "Public domain",
   "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stade_Sochaux_Bonale_2.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Stade_Sochaux_Bonale_2.jpg",
@@ -1929,7 +1991,7 @@
  },
  "osm-way-39361183": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/EstadioCarranza1.jpg/960px-EstadioCarranza1.jpg",
-  "author": "No machine-readable author provided. Jecanre assumed (based on copyright claims).",
+  "author": "Jecanre",
   "license": "Public domain",
   "licenseUrl": "https://commons.wikimedia.org/wiki/File:EstadioCarranza1.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:EstadioCarranza1.jpg",
@@ -2008,11 +2070,11 @@
   "qid": "Q619505"
  },
  "osm-way-41772061": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zoudenbalch.JPG/960px-Zoudenbalch.JPG",
-  "author": "Luctor IV",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "page": "https://commons.wikimedia.org/wiki/File:Zoudenbalch.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sportcomplex_Zoudenbalch.jpg/960px-Sportcomplex_Zoudenbalch.jpg",
+  "author": "Victor van Werkhooven",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sportcomplex_Zoudenbalch.jpg",
   "qid": "Q3264211"
  },
  "osm-way-41813956": {
@@ -2223,6 +2285,14 @@
   "page": "https://commons.wikimedia.org/wiki/File:Tribune-Foucauld-2009.jpg",
   "qid": "Q1432517"
  },
+ "osm-way-51937007": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Supportersspandoek_tijdens_de_slotfase_van_seizoen_2024-2025%2C_als_steun_in_een_uiterst_onzekere_periode.jpg/960px-Supportersspandoek_tijdens_de_slotfase_van_seizoen_2024-2025%2C_als_steun_in_een_uiterst_onzekere_periode.jpg",
+  "author": "Familieruis",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Supportersspandoek_tijdens_de_slotfase_van_seizoen_2024-2025,_als_steun_in_een_uiterst_onzekere_periode.jpg",
+  "qid": "Q1067235"
+ },
  "osm-way-522940390": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Unipol_Domus_from_Distinti_2026.jpg/960px-Unipol_Domus_from_Distinti_2026.jpg",
   "author": "Sandrino 14",
@@ -2270,6 +2340,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
   "page": "https://commons.wikimedia.org/wiki/File:London_Tottenham_Hotspur_Stadium.jpg",
   "qid": "Q55074091"
+ },
+ "osm-way-54096891": {
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Stadion_Feijenoord_%2847370317351%29.jpg/960px-Stadion_Feijenoord_%2847370317351%29.jpg",
+  "author": "Daniel from Glasgow, United Kingdom",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stadion_Feijenoord_(47370317351).jpg",
+  "qid": "Q330298"
  },
  "osm-way-545076525": {
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Kras_stadion.JPG/960px-Kras_stadion.JPG",
@@ -2552,19 +2630,19 @@
   "qid": "Q683112"
  },
  "osm-way-663031640": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Emmen_univestadion.jpg/960px-Emmen_univestadion.jpg",
-  "author": "Hans055",
-  "license": "Public domain",
-  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emmen_univestadion.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Emmen_univestadion.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Oude_Meerdijk_2022.jpg/960px-Oude_Meerdijk_2022.jpg",
+  "author": "Richard Broekhuijzen",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Oude_Meerdijk_2022.jpg",
   "qid": "Q2093331"
  },
  "osm-way-663046810": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Goffertstadion_tijdens_een_wedstrijd.jpg/960px-Goffertstadion_tijdens_een_wedstrijd.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Stadion_de_Goffert_by_night.jpg/960px-Stadion_de_Goffert_by_night.jpg",
   "author": "Justinrtw5",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Goffertstadion_tijdens_een_wedstrijd.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stadion_de_Goffert_by_night.jpg",
   "qid": "Q720983"
  },
  "osm-way-663050383": {
@@ -2736,11 +2814,11 @@
   "qid": "Q530735"
  },
  "osm-way-78626091": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Den_Dreef.jpg/960px-Den_Dreef.jpg",
-  "author": "George Bryce",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Den_Dreef.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/King_Power_at_Den_Dreef_Stadion.jpg/960px-King_Power_at_Den_Dreef_Stadion.jpg",
+  "author": "Joliennoens",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Power_at_Den_Dreef_Stadion.jpg",
   "qid": "Q301760"
  },
  "osm-way-7989344": {
@@ -2896,11 +2974,11 @@
   "qid": "Q1369445"
  },
  "osm-way-93732242": {
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/20110720_daknamstadion.jpg/960px-20110720_daknamstadion.jpg",
-  "author": "Martijn Mureau",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:20110720_daknamstadion.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Daknamstadian_2024-02-03.jpg/960px-Daknamstadian_2024-02-03.jpg",
+  "author": "Floris DC",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Daknamstadian_2024-02-03.jpg",
   "qid": "Q677582"
  },
  "osm-way-952291708": {
@@ -2920,11 +2998,11 @@
   "qid": "Q1850335"
  },
  "osm-way-962685696": {
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ADO_Den_Haag_Stadion%2C_Forepark.jpg",
-  "author": "Michiel1972",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Panorama_ADO_Den_Haag_Stadium_15-8-2019.jpg/960px-Panorama_ADO_Den_Haag_Stadium_15-8-2019.jpg",
+  "author": "Grifo",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:ADO_Den_Haag_Stadion,_Forepark.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panorama_ADO_Den_Haag_Stadium_15-8-2019.jpg",
   "qid": "Q720978"
  },
  "osm-way-967684376": {
