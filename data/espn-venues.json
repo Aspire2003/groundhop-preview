@@ -309,6 +309,12 @@
    "venue": "Cappielow Park",
    "ground": "Cappielow Park"
   },
+  "246": {
+   "groundId": "osm-way-193890744",
+   "how": "name",
+   "venue": "Forthbank Stadium",
+   "ground": "Forthbank Stadium"
+  },
   "247": {
    "groundId": "osm-way-15090854",
    "how": "manual",
@@ -377,6 +383,12 @@
    "how": "manual",
    "venue": "Stade Louis II"
   },
+  "389": {
+   "groundId": "osm-way-182440795",
+   "how": "name",
+   "venue": "Broadwood Stadium",
+   "ground": "Broadwood Stadium"
+  },
   "600": {
    "groundId": "osm-way-184958291",
    "how": "manual",
@@ -412,6 +424,12 @@
    "groundId": "osm-node-13333689399",
    "how": "manual",
    "venue": "Arasen Stadion"
+  },
+  "1322": {
+   "groundId": "osm-way-591573742",
+   "how": "name",
+   "venue": "Raydale Park",
+   "ground": "Raydale Park"
   },
   "1340": {
    "groundId": "osm-way-126776229",
@@ -553,6 +571,12 @@
    "how": "name",
    "venue": "Romssa Arena",
    "ground": "Romssa Arena"
+  },
+  "1774": {
+   "groundId": "osm-way-104443383",
+   "how": "name",
+   "venue": "Estádio do Bonfim",
+   "ground": "Estádio do Bonfim"
   },
   "1810": {
    "groundId": "osm-way-66321024",
@@ -1360,6 +1384,12 @@
    "venue": "Stade Marcel-Verchere",
    "ground": "Stade Marcel Verchère"
   },
+  "6467": {
+   "groundId": "osm-way-646417259",
+   "how": "name",
+   "venue": "Christie Park",
+   "ground": "Christie Park"
+  },
   "6487": {
    "groundId": "osm-way-886134716",
    "how": "manual",
@@ -1541,6 +1571,12 @@
    "groundId": "osm-way-566753907",
    "how": "manual",
    "venue": "Stadio Friuli"
+  },
+  "7448": {
+   "groundId": "osm-way-193228835",
+   "how": "name",
+   "venue": "Dumbarton Football Stadium",
+   "ground": "Dumbarton Football Stadium"
   },
   "7486": {
    "groundId": "osm-way-443983964",
@@ -2004,6 +2040,12 @@
    "how": "name",
    "venue": "Ennio Tardini",
    "ground": "Stadio Ennio Tardini"
+  },
+  "10549": {
+   "groundId": "osm-way-268957094",
+   "how": "name",
+   "venue": "Euroborg",
+   "ground": "Euroborg"
   },
   "10552": {
    "groundId": "osm-way-499335246",
@@ -2615,12 +2657,6 @@
    "how": "name",
    "venue": "Estádio Cidade de Coimbra",
    "ground": "Estádio Cidade de Coimbra"
-  },
-  "11838": {
-   "groundId": "osm-way-193045300",
-   "how": "name",
-   "venue": "Estadio de Tasagaya",
-   "ground": "Estadio Municipal Tasagaya"
   }
  }
 }
