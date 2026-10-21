@@ -102,11 +102,6 @@
    "venue": "Prenton Park",
    "ground": "Prenton Park"
   },
-  "148": {
-   "groundId": "osm-way-152050533",
-   "how": "manual",
-   "venue": "STōK Cae Ras"
-  },
   "150": {
    "groundId": "osm-way-47484057",
    "how": "name",
@@ -194,12 +189,6 @@
    "venue": "Hillsborough",
    "ground": "Hillsborough Stadium"
   },
-  "190": {
-   "groundId": "osm-way-41438140",
-   "how": "name",
-   "venue": "Elland Road",
-   "ground": "Elland Road Stadium"
-  },
   "192": {
    "groundId": "osm-way-4830206",
    "how": "name",
@@ -229,12 +218,6 @@
    "how": "name",
    "venue": "Carrow Road",
    "ground": "Carrow Road Stadium"
-  },
-  "200": {
-   "groundId": "osm-way-12357544",
-   "how": "name",
-   "venue": "Fratton Park",
-   "ground": "Fratton Park"
   },
   "201": {
    "groundId": "osm-way-193207310",
@@ -337,12 +320,6 @@
    "how": "name",
    "venue": "Goodison Park",
    "ground": "Goodison Park"
-  },
-  "256": {
-   "groundId": "osm-way-4729749",
-   "how": "name",
-   "venue": "Toughsheet Community Stadium",
-   "ground": "Toughsheet Community Stadium"
   },
   "257": {
    "groundId": "osm-way-117953386",
@@ -610,12 +587,6 @@
    "venue": "Nuevo Mirandilla",
    "ground": "Estadio Nuevo Mirandilla"
   },
-  "2023": {
-   "groundId": "osm-relation-12942436",
-   "how": "name",
-   "venue": "Wembley Stadium",
-   "ground": "Wembley Stadium"
-  },
   "2166": {
    "groundId": "osm-way-1052455773",
    "how": "name",
@@ -632,12 +603,6 @@
    "groundId": "osm-way-19839830",
    "how": "manual",
    "venue": "Stade Robert Bobin"
-  },
-  "2267": {
-   "groundId": "osm-way-25651711",
-   "how": "name",
-   "venue": "Emirates Stadium",
-   "ground": "Emirates Stadium"
   },
   "2271": {
    "groundId": "osm-way-53559935",
@@ -724,12 +689,6 @@
    "groundId": "osm-way-1240186958",
    "how": "manual",
    "venue": "Sportpark Zuid"
-  },
-  "2585": {
-   "groundId": "osm-way-39256141",
-   "how": "name",
-   "venue": "Kal Group Stadium",
-   "ground": "KAL Group Stadium"
   },
   "2592": {
    "groundId": "osm-relation-1695721",
@@ -963,11 +922,6 @@
    "how": "name",
    "venue": "Hornchurch Stadium",
    "ground": "Hornchurch Stadium"
-  },
-  "3670": {
-   "groundId": "osm-way-219432070",
-   "how": "manual",
-   "venue": "The MKM Stadium"
   },
   "3672": {
    "groundId": "osm-way-160320378",
@@ -1617,12 +1571,6 @@
    "how": "manual",
    "venue": "Sportpark Dijkpolder"
   },
-  "7963": {
-   "groundId": "osm-way-935164075",
-   "how": "name",
-   "venue": "Arbour Park",
-   "ground": "Arbour Park"
-  },
   "7974": {
    "groundId": "osm-way-170350372",
    "how": "manual",
@@ -1758,12 +1706,6 @@
    "how": "manual",
    "venue": "Sussex Transport Community Stadium"
   },
-  "9593": {
-   "groundId": "osm-way-374379087",
-   "how": "name",
-   "venue": "Brewery Field",
-   "ground": "The Brewery Field"
-  },
   "9614": {
    "groundId": "osm-way-181330349",
    "how": "name",
@@ -1779,12 +1721,6 @@
    "groundId": "osm-way-3869991",
    "how": "manual",
    "venue": "MHPArena"
-  },
-  "9657": {
-   "groundId": "osm-way-731980938",
-   "how": "name",
-   "venue": "Bramall Lane",
-   "ground": "Bramall Lane"
   },
   "9730": {
    "groundId": "osm-way-628413105",
@@ -1888,12 +1824,6 @@
    "how": "name",
    "venue": "St. Andrew's Stadium",
    "ground": "St. Andrew's"
-  },
-  "10331": {
-   "groundId": "osm-way-704823227",
-   "how": "name",
-   "venue": "The Valley",
-   "ground": "The Valley"
   },
   "10332": {
    "groundId": "osm-way-554223290",
@@ -2475,11 +2405,6 @@
    "groundId": "osm-way-193461738",
    "how": "manual",
    "venue": "Tele2 Arena"
-  },
-  "10904": {
-   "groundId": "osm-way-95507076",
-   "how": "manual",
-   "venue": "The Silverlands"
   },
   "10946": {
    "groundId": "osm-way-38051824",
