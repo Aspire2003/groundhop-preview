@@ -644,6 +644,12 @@
    "how": "manual",
    "venue": "Estádio José Alvalade"
   },
+  "2378": {
+   "groundId": "osm-relation-3531550",
+   "how": "name",
+   "venue": "La Albuera",
+   "ground": "Estadio Municipal de la Albuera"
+  },
   "2383": {
    "groundId": "osm-relation-3574462",
    "how": "name",
@@ -1024,6 +1030,12 @@
    "how": "manual",
    "venue": "Estadio Coliseum"
   },
+  "4205": {
+   "groundId": "osm-way-1315889883",
+   "how": "name",
+   "venue": "Municipal de Santo Domingo",
+   "ground": "Estadio Municipal de Santo Domingo"
+  },
   "4211": {
    "groundId": "osm-way-139097921",
    "how": "name",
@@ -1093,6 +1105,12 @@
    "groundId": "osm-way-94220992",
    "how": "manual",
    "venue": "Sarpsborg Stadion"
+  },
+  "4522": {
+   "groundId": "osm-relation-4284673",
+   "how": "name",
+   "venue": "Las Gaunas",
+   "ground": "Estadio Municipal Las Gaunas"
   },
   "4523": {
    "groundId": "osm-relation-9217779",
@@ -1439,6 +1457,12 @@
    "how": "manual",
    "venue": "Estádio Municipal Manuel Branco Teixeira"
   },
+  "6793": {
+   "groundId": "osm-relation-3959287",
+   "how": "name",
+   "venue": "Hermanos Antuña",
+   "ground": "Estadio Hermanos Antuña"
+  },
   "6827": {
    "groundId": "osm-way-521570813",
    "how": "manual",
@@ -1632,6 +1656,12 @@
    "venue": "Estadio Municipal de El Plantío",
    "ground": "Estadio Municipal de El Plantío"
   },
+  "8559": {
+   "groundId": "osm-relation-909099",
+   "how": "name",
+   "venue": "Estadio Balear",
+   "ground": "Estadi Balear"
+  },
   "8577": {
    "groundId": "osm-way-887593654",
    "how": "name",
@@ -1734,6 +1764,12 @@
    "how": "manual",
    "venue": "MHPArena"
   },
+  "9659": {
+   "groundId": "osm-way-8082830",
+   "how": "name",
+   "venue": "Mestalla Stadium",
+   "ground": "Mestalla"
+  },
   "9730": {
    "groundId": "osm-way-628413105",
    "how": "name",
@@ -1789,6 +1825,24 @@
    "how": "name",
    "venue": "Campo Estrela",
    "ground": "Campo Estrela"
+  },
+  "10133": {
+   "groundId": "osm-way-44617743",
+   "how": "name",
+   "venue": "Francisco Muñoz Pérez",
+   "ground": "Estadio Municipal Francisco Muñoz Pérez"
+  },
+  "10136": {
+   "groundId": "osm-relation-5382556",
+   "how": "name",
+   "venue": "Municipal Adolfo Suárez",
+   "ground": "Estadio Municipal Adolfo Suárez"
+  },
+  "10192": {
+   "groundId": "osm-way-228433687",
+   "how": "name",
+   "venue": "Estadio Municipal Ángel Celdrán",
+   "ground": "Estadio Ángel Celdrán"
   },
   "10267": {
    "groundId": "osm-way-1364600319",
@@ -2355,6 +2409,18 @@
    "venue": "Memorial Stadium",
    "ground": "Memorial Stadium"
   },
+  "10824": {
+   "groundId": "osm-way-75918403",
+   "how": "name",
+   "venue": "Camp Nou de Sa Pobla",
+   "ground": "Estadi Nou Camp de Sa Pobla"
+  },
+  "10829": {
+   "groundId": "osm-way-76353512",
+   "how": "name",
+   "venue": "Estadi Municipal de Futbol de L'Hospitalet",
+   "ground": "Estadi Municipal de Futbol de l'Hospitalet"
+  },
   "10837": {
    "groundId": "osm-way-135262893",
    "how": "name",
@@ -2600,6 +2666,48 @@
    "how": "name",
    "venue": "Estádio Cidade de Coimbra",
    "ground": "Estádio Cidade de Coimbra"
+  },
+  "11897": {
+   "groundId": "osm-way-126678036",
+   "how": "name",
+   "venue": "Estadio José Antonio Pérez",
+   "ground": "Estadio José Antonio Pérez"
+  },
+  "11899": {
+   "groundId": "osm-way-127559840",
+   "how": "name",
+   "venue": "Estadio Nuevo Colombino",
+   "ground": "Estadio Nuevo Colombino"
+  },
+  "11900": {
+   "groundId": "osm-way-23738259",
+   "how": "name",
+   "venue": "Estadio Municipal Ciudad de Tudela",
+   "ground": "Estadio Municipal Ciudad de Tudela"
+  },
+  "11904": {
+   "groundId": "osm-way-120569205",
+   "how": "name",
+   "venue": "Estadio Municipal Nuevo Vivero",
+   "ground": "Estadio Nuevo Vivero"
+  },
+  "11905": {
+   "groundId": "osm-way-154730616",
+   "how": "name",
+   "venue": "Estadio Ciudad de Puertollano",
+   "ground": "Estadio Ciudad de Puertollano"
+  },
+  "11906": {
+   "groundId": "osm-relation-2504343",
+   "how": "name",
+   "venue": "Estadio Helmántico",
+   "ground": "Estadio Helmántico"
+  },
+  "11908": {
+   "groundId": "osm-way-102010101",
+   "how": "name",
+   "venue": "Estadio La Fuensanta",
+   "ground": "Estadio de la Fuensanta"
   }
  }
 }
