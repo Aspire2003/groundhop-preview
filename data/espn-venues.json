@@ -690,6 +690,12 @@
    "how": "manual",
    "venue": "Sportpark Zuid"
   },
+  "2576": {
+   "groundId": "osm-way-125005987",
+   "how": "name",
+   "venue": "The Raymond McEnhill Stadium",
+   "ground": "Raymond McEnhill Stadium"
+  },
   "2592": {
    "groundId": "osm-relation-1695721",
    "how": "name",
@@ -1044,6 +1050,12 @@
    "groundId": "osm-way-74887533",
    "how": "manual",
    "venue": "Aker Stadion"
+  },
+  "4294": {
+   "groundId": "osm-way-833172668",
+   "how": "name",
+   "venue": "Nethermoor Park",
+   "ground": "Nethermoor Park"
   },
   "4314": {
    "groundId": "osm-way-663031640",
@@ -2470,6 +2482,12 @@
    "how": "name",
    "venue": "Stadio Cino e Lillo Del Duca",
    "ground": "Stadio Cino e Lillo Del Duca"
+  },
+  "11510": {
+   "groundId": "osm-way-55440947",
+   "how": "name",
+   "venue": "The Stan Robinson Stadium",
+   "ground": "The Stan Robinson Stadium"
   },
   "11512": {
    "groundId": "osm-relation-1626823",
