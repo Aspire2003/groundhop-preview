@@ -1,7 +1,7 @@
 // Groundhop web app: works in the stadium without signal. The page itself is fetched fresh when
 // online (so a new version shows up) and falls back to the cached copy offline. The bundle (hashed
-// names) and fonts are cached on first use. 20261112123629 is replaced at build time.
-const CACHE = 'groundhop-20261112123629';
+// names) and fonts are cached on first use. 20261112130945 is replaced at build time.
+const CACHE = 'groundhop-20261112130945';
 // Match data files whose URL names their content (data/<name>.json?v=<hash>, src/data/files.web.ts):
 // the same URL is always the same bytes, so they are served straight from here without asking the
 // network, and kept across deploys -- a new build only downloads the files that really changed.
@@ -14,7 +14,7 @@ const CHUNKS = ["./_expo/static/js/web/+not-found-ab85f95146722cc189159f5dfe7ad1
 // The versioned data files the first screen needs (filled in at build time): kept at install, so the
 // next start reads them from here. The page usually fetched them moments ago, so this is mostly the
 // browser's HTTP cache answering. Best-effort: a file that fails is simply fetched on first use.
-const DATA = ["./data/web-snapshot.json?v=a32ccf7312e8","./data/club-links.json?v=41c2e3e35f94","./data/club-names.json?v=35052285336b","./data/club-crests.json?v=d4a078be9614","./data/team-grounds-openfootball.json?v=0b5e5d7fd791","./data/espn-venues.json?v=77aa6995bef9","./data/espn-season.json?v=140c4fe8d220","./data/team-grounds-de.json?v=933bcbbc46d2","./data/rbfa-season.json?v=d84429a5dbb9","./data/af-index.json?v=9083758da0ff","./data/af-overlay.json?v=9a11dd887968","./data/crest-local.json?v=5a8b69d13300"];
+const DATA = ["./data/web-snapshot.json?v=a32ccf7312e8","./data/club-links.json?v=41c2e3e35f94","./data/club-names.json?v=35052285336b","./data/club-crests.json?v=d4a078be9614","./data/team-grounds-openfootball.json?v=0b5e5d7fd791","./data/espn-venues.json?v=77aa6995bef9","./data/espn-season.json?v=fd4c4ee95043","./data/team-grounds-de.json?v=933bcbbc46d2","./data/rbfa-season.json?v=d84429a5dbb9","./data/af-index.json?v=61d1cbd49278","./data/af-overlay.json?v=50f02248983f","./data/crest-local.json?v=5a8b69d13300"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
