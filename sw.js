@@ -1,7 +1,7 @@
 // Groundhop web app: works in the stadium without signal. The page itself is fetched fresh when
 // online (so a new version shows up) and falls back to the cached copy offline. The bundle (hashed
-// names) and fonts are cached on first use. 20261117133523 is replaced at build time.
-const CACHE = 'groundhop-20261117133523';
+// names) and fonts are cached on first use. 20261117134329 is replaced at build time.
+const CACHE = 'groundhop-20261117134329';
 // Match data files whose URL names their content (data/<name>.json?v=<hash>, src/data/files.web.ts):
 // the same URL is always the same bytes, so they are served straight from here without asking the
 // network, and kept across deploys -- a new build only downloads the files that really changed.
