@@ -1673,6 +1673,12 @@
    "venue": "Estadio Municipal Nuevo Pepico Amat",
    "ground": "Estadio Nuevo Pepico Amat"
   },
+  "8976": {
+   "groundId": "osm-way-363225112",
+   "how": "name",
+   "venue": "Stade Maurice Rousson",
+   "ground": "Stade Maurice Rousson"
+  },
   "9203": {
    "groundId": "osm-relation-13103279",
    "how": "manual",
@@ -2693,6 +2699,12 @@
    "how": "name",
    "venue": "Stade Louis Ganivet",
    "ground": "Stade Louis Ganivet"
+  },
+  "12015": {
+   "groundId": "osm-way-802602691",
+   "how": "name",
+   "venue": "Stade Michel-Volnay",
+   "ground": "Stade Michel Volnay"
   }
  }
 }
