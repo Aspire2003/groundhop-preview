@@ -879,6 +879,12 @@
    "how": "manual",
    "venue": "Nou Estadi Castalia"
   },
+  "3469": {
+   "groundId": "osm-relation-4444584",
+   "how": "name",
+   "venue": "Estadio El Alcoraz",
+   "ground": "Estadio El Alcoraz"
+  },
   "3473": {
    "groundId": "osm-way-261309797",
    "how": "name",
@@ -989,6 +995,12 @@
    "groundId": "osm-way-838353907",
    "how": "manual",
    "venue": "Estadio Gran Canaria"
+  },
+  "4031": {
+   "groundId": "osm-way-132533967",
+   "how": "name",
+   "venue": "Estadio Cartagonova",
+   "ground": "Estadio Municipal Cartagonova"
   },
   "4036": {
    "groundId": "osm-way-26329734",
@@ -1430,6 +1442,12 @@
    "how": "manual",
    "venue": "Estádio Municipal Manuel Branco Teixeira"
   },
+  "6792": {
+   "groundId": "osm-way-87132115",
+   "how": "name",
+   "venue": "Francisco de la Hera",
+   "ground": "Estadio Francisco de la Hera"
+  },
   "6793": {
    "groundId": "osm-relation-3959287",
    "how": "name",
@@ -1529,6 +1547,12 @@
    "how": "name",
    "venue": "Unipol Domus",
    "ground": "Unipol Domus"
+  },
+  "7405": {
+   "groundId": "osm-way-409110880",
+   "how": "name",
+   "venue": "Cerro del Espino",
+   "ground": "Estadio Cerro del Espino"
   },
   "7411": {
    "groundId": "osm-way-566753907",
@@ -1916,6 +1940,12 @@
    "how": "manual",
    "venue": "Madejski Stadium"
   },
+  "10354": {
+   "groundId": "osm-way-1420887953",
+   "how": "name",
+   "venue": "Ibercaja Estadio",
+   "ground": "Ibercaja Estadio"
+  },
   "10356": {
    "groundId": "osm-relation-1458682",
    "how": "manual",
@@ -2085,6 +2115,12 @@
    "how": "manual",
    "venue": "Ipurua"
   },
+  "10639": {
+   "groundId": "osm-way-26957628",
+   "how": "name",
+   "venue": "Estadio Reino de León",
+   "ground": "Estadio Municipal Reino de León"
+  },
   "10640": {
    "groundId": "osm-way-4540461",
    "how": "name",
@@ -2096,6 +2132,12 @@
    "how": "name",
    "venue": "Estadio José Zorrilla",
    "ground": "Estadio José Zorrilla"
+  },
+  "10642": {
+   "groundId": "osm-way-181677429",
+   "how": "name",
+   "venue": "Estadio Municipal de Anduva",
+   "ground": "Estadio Municipal Anduva"
   },
   "10650": {
    "groundId": "osm-way-1016737247",
@@ -2375,6 +2417,12 @@
    "how": "name",
    "venue": "Estadi Municipal de la Nova Creu Alta",
    "ground": "Estadi Municipal de la Nova Creu Alta"
+  },
+  "10805": {
+   "groundId": "osm-relation-7420245",
+   "how": "name",
+   "venue": "El Toralín",
+   "ground": "Estadio Municipal El Toralín"
   },
   "10808": {
    "groundId": "osm-way-41384012",
